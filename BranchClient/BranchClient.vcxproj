@@ -18,6 +18,33 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\addresses.h" />
+    <ClInclude Include="src\BTS.h" />
+    <ClInclude Include="src\config.h" />
+    <ClInclude Include="src\disasm.h" />
+    <ClInclude Include="src\introspection.h" />
+    <ClInclude Include="src\k32.h" />
+    <ClInclude Include="src\kb.h" />
+    <ClInclude Include="src\msv.h" />
+    <ClInclude Include="src\nt.h" />
+    <ClInclude Include="src\parse.h" />
+    <ClInclude Include="src\signal.h" />
+    <ClInclude Include="src\Threads.h" />
+    <ClInclude Include="src\wow.h" />
+    <ClInclude Include="src\wowcpu.h" />
+    <ClInclude Include="src\wownt.h" />
+    <ClInclude Include="src\wowuser.h" />
+    <ClInclude Include="src\wowwin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\disasm.cpp" />
+    <ClCompile Include="src\Filtering.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\parse.cpp" />
+    <ClCompile Include="src\signal.cpp" />
+    <ClCompile Include="src\Threads.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FD891ECB-2EAC-4034-873F-FC2E5E397458}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -142,33 +169,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="addresses.h" />
-    <ClInclude Include="BTS.h" />
-    <ClInclude Include="config.h" />
-    <ClInclude Include="disasm.h" />
-    <ClInclude Include="introspection.h" />
-    <ClInclude Include="k32.h" />
-    <ClInclude Include="kb.h" />
-    <ClInclude Include="msv.h" />
-    <ClInclude Include="nt.h" />
-    <ClInclude Include="parse.h" />
-    <ClInclude Include="signal.h" />
-    <ClInclude Include="Threads.h" />
-    <ClInclude Include="wow.h" />
-    <ClInclude Include="wowcpu.h" />
-    <ClInclude Include="wownt.h" />
-    <ClInclude Include="wowuser.h" />
-    <ClInclude Include="wowwin.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="disasm.cpp" />
-    <ClCompile Include="Filtering.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="parse.cpp" />
-    <ClCompile Include="signal.cpp" />
-    <ClCompile Include="Threads.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

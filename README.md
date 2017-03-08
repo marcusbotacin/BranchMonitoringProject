@@ -88,6 +88,9 @@ paths on the compilation project, as shown below:
 
 ![Including libraries paths](screenshots/compiler.includes.png)
 
+In my computer, I was compiling under C:\\. If you are compiling from other dir,
+you need to point /src path properly.
+
 You should also define system architecture and configurations, as shown below:
 
 ![Solution Configuration](screenshots/compiler.config.png)
@@ -171,3 +174,8 @@ This framework is presented as a *proof-of-concept* (PoC) of the branch monitori
 * **CPU Checks**: PERF_COUNT support check is missing.
 * **BranchClient Multi-Thread Support**: How to launch more threads without
   breaking flow tracking ?
+
+## Future Plans
+
+Multi-Core implementation is coming! I only need to hook
+*HalpPerfInterruptHandler*.
