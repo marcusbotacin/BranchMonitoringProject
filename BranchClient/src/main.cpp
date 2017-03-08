@@ -11,12 +11,25 @@
 #include "BTS.h"
 
 /* global thread vars */
-HANDLE proc;
+/* TODO: pack data into a struct and pass as ThreadContext */
+
+/* monitored process handler. This version does not support multiple processes
+ * monitoring at time (yet) */
+HANDLE proc; 
+/* BTS mechanism should be reenabled ? */
 BOOL run=TRUE;
+/* queue things */
 std::mutex queue_lock;
 std::queue<BRANCHDATA> q;
+/* Introspection things */
+/* Binary image */
 imgs binary;
+/* Library images */
+/* I am assuming a small number of loaded libraries */
+/* TODO: malloc would allow supporting more libs */
 imgs libs[MAX_LIBS];
+/* Number of loaded libraries */
+/* TODO: Put it on a struct, along loaded libs vector */
 int n_libs=0;
 
 int main(int argc, char *argv[])
