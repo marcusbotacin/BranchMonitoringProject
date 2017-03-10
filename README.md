@@ -38,6 +38,8 @@ The repository is organized as follows:
 * **Launcher**: A tool to ease monitoring process start up. Given a PID, dumps all
   memory address and supplies them as inputs to the advanced client.
 * **BranchMonitor**: The monitoring driver.
+* **DumpDLL**: A tool to ease introspection headers generation.
+
 
 ### Dependencies
 
@@ -50,6 +52,8 @@ The repository is organized as follows:
   framework](https://www.microsoft.com/net/download/framework).
 * Code disassembly is performed by [Capstone](https://github.com/aquynh/capstone).
 * Automatic launcher requires [Python](https://www.python.org/), [Sysinternals](https://technet.microsoft.com/en-us/sysinternals/bb545021.aspx), [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4), [Codecs](https://docs.python.org/2/library/codecs.html), and [ConfigParser](https://docs.python.org/2/library/configparser.html).
+* DLL dumps for *DumpDLL* are obtained using [DLL Export
+  Viewer](http://www.nirsoft.net/utils/dll_export_viewer.html).
 
 ### Configuring
 
@@ -79,7 +83,7 @@ You should set on which core the monitor will be enabled.
 ```C
 #define BTS_CORE 3
 ```
-**Introspection Update**: As noticed by @smaresca , introspection headers are
+**Introspection Update**: As noticed by @smaresca, introspection headers are
 version-dependent. The values supplied work for Windows 8 x64 6.2 build 9200. 
 Some DLL versions are shown below whereas others can be found on 
 [DLL.Versions](https://github.com/marcusbotacin/BranchMonitoringProject/blob/master/DumpDLL/DLL.Versions.txt).
