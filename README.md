@@ -79,6 +79,48 @@ You should set on which core the monitor will be enabled.
 ```C
 #define BTS_CORE 3
 ```
+**Introspection Update**: As noticed by @smaresca , introspection headers are
+version-dependent. The values supplied work for Windows 8 x64 6.2 build 9200. 
+Some DLL versions are shown below whereas others can be found on 
+[DLL.Versions](https://github.com/marcusbotacin/BranchMonitoringProject/blob/master/DumpDLL/DLL.Versions.txt).
+
+```
+ProductVersion   FileVersion      FileName                                                                             
+--------------   -----------      --------                                                                             
+6.2.9200.16384   6.2.9200.1638... C:\Windows\System32\ntdll.dll
+6.2.9200.16384   6.2.9200.1638... C:\Windows\System32\kernel32.dll
+
+```
+
+In order
+to run the solution on other systems, you need to dump the target DLL and generate
+the header file. This process is eased by the *DumpDLL* tool, which parses DLL
+dumps and produces the correct, ordered outputs, as shown below:
+
+*NTDLL Input*:
+
+```
+==================================================
+Function Name     : ZwYieldExecution
+Address           : 0x0000000180003040
+Relative Address  : 0x00003040
+Ordinal           : 1971 (0x7b3)
+Filename          : ntdll.dll
+Full Path         : C:\Windows\system32\ntdll.dll
+Type              : Exported Function
+==================================================
+```
+
+*NTDLL Output*:
+```
+strcpy , 4896
+strcat , 4720
+memcmp , 4496
+_local_unwind , 4432
+RtlGetCurrentUmsThread , 4240
+RtlEnterCriticalSection , 4192
+RtlLeaveCriticalSection , 4112
+```
 
 
 ### Building
