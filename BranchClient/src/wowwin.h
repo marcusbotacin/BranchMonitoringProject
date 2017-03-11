@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+#define WOW_WIN_PATH "C:\\Windows\\System32\\wow64win.dll"
+
 /* Function Offsets for the wow64win.dll  */
 /* Wow64 is required for running x86 under x64 */
 

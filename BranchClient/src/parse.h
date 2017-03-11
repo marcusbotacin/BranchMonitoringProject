@@ -24,4 +24,5 @@ enum error_codes
 };
 
 /* parser prototype */
+/* TODO: check if getopt (or other) is a better option */
 int parse(pimgs binary,pimgs libs,int argc,char *argv[],int *lib_count,int *pid);

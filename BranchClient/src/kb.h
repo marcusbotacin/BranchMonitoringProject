@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+#define KB_PATH "C:\\Windows\\System32\\kernelbase.dll"
+
 /* Function Offsets for the KernelBase.dll */
 
 static FUNCTION_INTROSPECTION kb[]={

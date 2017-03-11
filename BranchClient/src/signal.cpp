@@ -7,11 +7,13 @@
 
 extern BOOL run;
 
+/* Handle signal interruptions */
 void SignalHandler(int signal)
 {
+	/* Handle SIGINT (CTRL+C) to finish gracefully */
 	if (signal == SIGINT) {
 		printf("SIGINT\n");
-		/* disable executing */
+		/* disable execution */
 		/* finish gracefully */
 		run=FALSE;
 	}

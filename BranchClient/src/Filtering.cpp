@@ -24,31 +24,45 @@ extern imgs binary;
 extern imgs libs[];
 extern int n_libs;
 
-UINT64 LAST=-1;
+/* Last instruction is unknown at startup */
+UINT64 LAST=UNKNOWN_PATH;
 
 /* given a library, return a pointer to the introspection struct */
 /* TODO: Include ptr field into lib mapping */
 PFUNCTION_INTROSPECTION get_ptr(char lib[])
 {
 	PFUNCTION_INTROSPECTION ptr;
-	if(stricmp(lib,"C:\\Windows\\System32\\msvcr110d.dll")==0)
+	/* I want to move this step to the parser function
+	 * Advantage 1: Better performance by comparing strings only once
+	 * Advantage 2: Allow non-hardcoded strings
+	 */
+	if(stricmp(lib,MSV_PATH)==0)
 	{
+		/* MSVCR110D */
 		ptr=msv;
-	}else if(stricmp(lib,"C:\\Windows\\System32\\ntdll.dll")==0){
+	}else if(stricmp(lib,NT_PATH)==0){
+		/* NTDLL */
 		ptr=nt;
-	}else if(stricmp(lib,"C:\\Windows\\System32\\kernelbase.dll")==0){
+	}else if(stricmp(lib,KB_PATH)==0){
+		/* KERNELBASE */
 		ptr=kb;
-	}else if(stricmp(lib,"C:\\Windows\\System32\\kernel32.dll")==0){
+	}else if(stricmp(lib,K32_PATH)==0){
+		/* KERNEL32 */
 		ptr=k32;
-	}else if(stricmp(lib,"C:\\Windows\\System32\\wow64.dll")==0){
+	}else if(stricmp(lib,WOW_PATH)==0){
+		/* WOW64 */
 		ptr=wow64;
-	}else if(stricmp(lib,"C:\\Windows\\System32\\wow64cpu.dll")==0){
+	}else if(stricmp(lib,WOW_CPU_PATH)==0){
+		/* WOW64CPU */
 		ptr=wow64cpu;
-	}else if(stricmp(lib,"C:\\Windows\\System32\\wow64win.dll")==0){
+	}else if(stricmp(lib,WOW_WIN_PATH)==0){
+		/* WOW64wIN */
 		ptr=wow64win;
-	}else if(stricmp(lib,"C:\\Windows\\SysWOW64\\ntdll.dll")==0){
+	}else if(stricmp(lib,WOW_NT_PATH)==0){
+		/* WOW_NTDLL *?
 		ptr=wow_ntdll;
-	}else if(stricmp(lib,"C:\\Windows\\SysWOW64\\user32.dll")==0){
+	}else if(stricmp(lib,WOW_USER_PATH)==0){
+		/* WOW_USER32 */
 		ptr=wow_user32;
 	}else{
 		return NULL;
@@ -64,7 +78,7 @@ void get_lib_function(char name[],char lib[],UINT64 addr)
 	PFUNCTION_INTROSPECTION ptr=get_ptr(lib);
 	if(ptr==NULL)
 	{
-		strcpy(name,"Unknown Function");
+		strcpy(name,UNKNOWN_MESSAGE);
 		return;
 	}
 	
@@ -80,7 +94,7 @@ void get_lib_function(char name[],char lib[],UINT64 addr)
 			/* Function offset case -- usual on RET */
 			if(offset>0)
 			{
-				char str_off[64];
+				char str_off[MAX_OFFSET];
 				sprintf(str_off,"+0x%x",offset);
 				strcat(name,str_off);
 			}
@@ -102,8 +116,8 @@ UINT64 offset_calculator(UINT64 base_addr,UINT64 addr)
 void flow_analysis(UINT64 FROM,UINT64 TO)
 {
 	/* Declarations */
-	char function_from[1024];
-	char function_to[1024];
+	char function_from[MAX_INTROSPECTION_NAMES];
+	char function_to[MAX_INTROSPECTION_NAMES];
 	UINT64 offset_from, offset_to;
 	BOOL bin_FROM,bin_TO;
 	int lib_FROM,lib_TO;
@@ -119,7 +133,7 @@ void flow_analysis(UINT64 FROM,UINT64 TO)
 	/* Flow cases */
 
 	/* FROM is Binary and TO is Library: CALL */
-	if(bin_FROM && lib_TO!=-1)
+	if(bin_FROM && lib_TO!=NOT_LIB)
 	{
 		offset_from=offset_calculator(binary.addr_min,FROM);
 		offset_to=offset_calculator(libs[lib_TO].addr_min,TO);
@@ -127,12 +141,14 @@ void flow_analysis(UINT64 FROM,UINT64 TO)
 		printf("Binary %s at <0x%llx> called %s at <%s>\n",binary.name,offset_from,libs[lib_TO].name,function_to);
 	}
 	/* FROM is library and TO is Binary: RETURN */
-	else if(lib_FROM!=-1 && bin_TO)
+	else if(lib_FROM!=NOT_LIB && bin_TO)
 	{
 		offset_from=offset_calculator(libs[lib_FROM].addr_min,FROM);
 		offset_to=offset_calculator(binary.addr_min,TO);
 		get_lib_function(function_from,libs[lib_FROM].name,offset_from);
 		printf("Library %s at <%s> returned to Binary %s at <0x%llx>\n",libs[lib_FROM].name,function_from,binary.name,offset_to);
+		/* Update known code region */
+		/* The last address will be used for code disasm */
 		LAST=TO;
 	}
 	/* Bin to Bin */
@@ -141,17 +157,19 @@ void flow_analysis(UINT64 FROM,UINT64 TO)
 		offset_from=offset_calculator(binary.addr_min,FROM);
 		offset_to=offset_calculator(binary.addr_min,TO);
 		printf("Binary %s at <0x%llx> to Binary %s at <0x%llx>\n",binary.name,offset_from,binary.name,offset_to);
+		/* Transition inside a binary, so a code block was executed, then disasm */
 		do_disasm(LAST,FROM);
+		/* Update executed block */
 		LAST=TO;
 	}
 	/* lib to lib */
-	else if(lib_FROM!=-1 && lib_TO!=-1)
+	else if(lib_FROM!=NOT_LIB && lib_TO!=NOT_LIB)
 	{
 		offset_from=offset_calculator(libs[lib_FROM].addr_min,FROM);
 		offset_to=offset_calculator(libs[lib_TO].addr_min,TO);
 		get_lib_function(function_from,libs[lib_FROM].name,offset_from);
 		get_lib_function(function_to,libs[lib_TO].name,offset_to);
-		//printf("Library %s at <%s> to Library %s at <%s>\n",libs[lib_FROM].name,function_from,libs[lib_TO].name,function_to);
+		printf("Library %s at <%s> to Library %s at <%s>\n",libs[lib_FROM].name,function_from,libs[lib_TO].name,function_to);
 	}
 	/* Any other case is exception, not handled */
 }
@@ -164,13 +182,16 @@ int is_library(UINT64 addr)
 	/* For each lib */
 	for(i=0;i<n_libs;i++)
 	{
+		/* greater than the base address
+		 * smaller than the base+size
+		 */
 		if(addr>=libs[i].addr_min && addr<=libs[i].addr_max)
 		{
 			/* return the lib index */
 			return i;
 		}
 	}
-	return -1;
+	return NOT_LIB;
 }
 
 /* Check if a given address is on the process space */

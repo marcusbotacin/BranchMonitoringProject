@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+# define MSV_PATH "C:\\Windows\\System32\\msvcr110d.dll"
+
 /* Function Offsets for the MSVCR110D.dll */
 /* This is the Debug version of the library */
 

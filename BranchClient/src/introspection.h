@@ -9,6 +9,25 @@
 /* max name size */
 #define LIB_STRING 1024
 
+/* ERRORs */
+
+/* Unknown function after trying introspect on a given address */
+#define UNKNOWN_MESSAGE "Unknown Function"
+
+/* Not inside a binary */
+
+#define NOT_BIN -1
+
+/* Not inside libray */
+
+#define NOT_LIB -1
+
+/* Offset calculation buffer */
+#define MAX_OFFSET 64
+
+/* name buffers */
+#define MAX_INTROSPECTION_NAMES 1024
+
 #pragma once
 /* function offset definition */
 typedef struct st_fintro{

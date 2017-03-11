@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+#define NT_PATH "C:\\Windows\\System32\\ntdll.dll"
+
 /* Function Offsets for the ntdll.dll */
 
 static FUNCTION_INTROSPECTION nt[]={

@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+#define WOW_CPU_PATH "C:\\Windows\\System32\\wow64cpu.dll"
+
 /* Kernel Offsets fot the Wow64cpu.dll */
 /* Wow64 is required for running x86 under x64 */
 

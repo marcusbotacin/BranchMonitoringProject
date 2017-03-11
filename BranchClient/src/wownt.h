@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+#define WOW_NT_PATH "C:\\Windows\\SysWOW64\\ntdll.dll"
+
 /* Function Offsets for the wow64ntdll.dll */
 /* Wow64 is required for running x86 under x64 */
 

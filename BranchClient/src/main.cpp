@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 	}
 		
 	/* Open Process */
-
+	/* VM_READ access is essential for instruction memory dump */
 	proc=OpenProcess(PROCESS_VM_READ,FALSE,PID);
 	if(proc!=NULL)
 	{

@@ -5,6 +5,8 @@
 
 #include "introspection.h"
 
+#define K32_PATH "C:\\Windows\\System32\\kernel32.dll"
+
 /* Function Offsets for the Kernel32.dll */
 
 static FUNCTION_INTROSPECTION k32[]={
