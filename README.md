@@ -234,6 +234,26 @@ More information is coming soon.
 
 As a result of BranchMonitoring framework, some Control Flow Integrity (CFI) policies for ROP attack detection were implemented. You can find on the *ROP* directory implementations for the *CALL-RET* and the *Gadget-Size* policies. Although I have previously described on an article a real-time solution, the hereby published tools are intended for post-analysis. However, you can easily implement these algorithms on the *DriverClient*, since the traces were retrieved from the tool.
 
+The *CALL-RET* policy consists on matching pairs of *CALLs* and *RETs*, based on the idea of each *RET* must be preceed by a *CALL* on an integer flow. This policy is shown below:
+
+```
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+...
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['ret', 'printf', 'NewToy']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [])
+```
+
+The gadget size policy is a heuristic which assumes ROP gadgets are smaller than ordinary ones, so a moving window is used to register the execution of a given number of small gadgets, as shown below:
+
+```
+('Detected in', [2, 17, 36, 4, 2, 27, 13, 5, 46, 2])
+```
+
 ## Utils
 
 The *Utils* directory contains some tools and utilities for binary analysis using BranchMonitor. Currently, the following tools are available:
