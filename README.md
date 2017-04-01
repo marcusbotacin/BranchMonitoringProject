@@ -39,6 +39,9 @@ The repository is organized as follows:
   memory address and supplies them as inputs to the advanced client.
 * **BranchMonitor**: The monitoring driver.
 * **DumpDLL**: A tool to ease introspection headers generation.
+* **Transparency.Tests**: Tools to attest BranchMonitor's transparency.
+* **ROP**: CFI verification tools to be used on execution traces.
+* **Debugger**: A debugger built upon BranchMonitor framework.
 
 
 ### Dependencies
@@ -219,7 +222,12 @@ Applications build upon the developed framework.
 
 ### Debugger
 
-Coming soon.
+A debugger built upon BranchMonitor framework. The directory is organized as follows:
+
+* **GDB**: A GDB stub which can be used to control the BranchMonitor debugger. On the original article, it was integrated into the debugger solution itself, but I released here an standalone version, so people can use it on distinct applications. It is totally based on [mseaborn's gdb-debug-stub](https://github.com/mseaborn/gdb-debug-stub).
+* **Driver**: To be released.
+
+More information is coming soon.
 
 ### ROP Detector
 
@@ -234,7 +242,6 @@ soon as possible.
 What is missing:
 
 * **Inverted I/O implementation**: Used for *branch-by-branch* debugging.
-* **GDB stub**: The debugger client.
 
 ## Limitations
 
