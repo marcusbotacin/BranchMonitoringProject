@@ -232,6 +232,12 @@ A debugger built upon BranchMonitor framework. The directory is organized as fol
 * **GDB**: A GDB stub which can be used to control the BranchMonitor debugger. On the original article, it was integrated into the debugger solution itself, but I released here an standalone version, so people can use it on distinct applications. It is totally based on [mseaborn's gdb-debug-stub](https://github.com/mseaborn/gdb-debug-stub).
 * **Driver**: To be released.
 
+#### GDB Usage
+
+The GDB stub is available by setting the *remote target* on the GDB client, as shown below:
+
+![GDB stub](screenshots/GDB.png)
+
 More information is coming soon.
 
 ### ROP Detector
