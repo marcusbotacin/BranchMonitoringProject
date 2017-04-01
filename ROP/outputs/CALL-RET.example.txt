@@ -1,0 +1,832 @@
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock'], ['call', '_lock', 'RtlEnterCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock'], ['call', '_lock', 'RtlEnterCriticalSection'], ['ret', 'RtlEnterCriticalSection', '_lock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock'], ['ret', '_lock', '_lock_file']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['ret', '_lock_file', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fileno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fileno'], ['ret', '_fileno', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_isatty']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['ret', '_isatty', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '__iob_func'], ['ret', '__iob_func', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_lock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_lock'], ['call', '_lock', 'RtlEnterCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_lock'], ['call', '_lock', 'RtlEnterCriticalSection'], ['ret', 'RtlEnterCriticalSection', '_lock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_lock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_lock'], ['ret', '_lock', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_CrtSetReportHook2']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_CrtSetReportHook2'], ['ret', '_CrtSetReportHook2', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'NtAllocateVirtualMemory']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'NtAllocateVirtualMemory'], ['ret', 'NtAllocateVirtualMemory', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['ret', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['ret', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlReAllocateHeap']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlReAllocateHeap'], ['ret', 'RtlReAllocateHeap', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['ret', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlTimeFieldsToTime']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlTimeFieldsToTime'], ['call', 'RtlTimeFieldsToTime', 'RtlTryEnterCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlTimeFieldsToTime'], ['call', 'RtlTimeFieldsToTime', 'RtlTryEnterCriticalSection'], ['ret', 'RtlTryEnterCriticalSection', 'RtlTimeFieldsToTime']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlTimeFieldsToTime']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['call', 'RtlGetLongestNtPathLength', 'RtlTimeFieldsToTime'], ['ret', 'RtlTimeFieldsToTime', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength'], ['ret', 'RtlGetLongestNtPathLength', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlReAllocateHeap']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['call', 'RtlGetLongestNtPathLength', 'RtlReAllocateHeap'], ['ret', 'RtlReAllocateHeap', 'RtlGetLongestNtPathLength']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable'], ['ret', 'RtlInitializeConditionVariable', 'RtlInitializeConditionVariable']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlAllocateHeap', 'RtlGetCurrentUmsThread']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['call', 'RtlAllocateHeap', 'RtlGetCurrentUmsThread'], ['ret', 'RtlGetCurrentUmsThread', 'RtlAllocateHeap']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['call', '_heapwalk', 'RtlAllocateHeap'], ['ret', 'RtlAllocateHeap', '_heapwalk']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_heapwalk'], ['ret', '_heapwalk', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', 'memset']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', 'memset'], ['ret', 'memset', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', 'memset']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', 'memset'], ['ret', 'memset', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', 'memset']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', 'memset'], ['ret', 'memset', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_unlock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_unlock'], ['call', '_unlock', 'RtlLeaveCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_unlock'], ['call', '_unlock', 'RtlLeaveCriticalSection'], ['ret', 'RtlLeaveCriticalSection', '_unlock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_unlock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['call', '_free_dbg', '_unlock'], ['ret', '_unlock', '_free_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_free_dbg'], ['ret', '_free_dbg', '_msize_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['call', '_msize_dbg', '_msize_dbg'], ['ret', '_msize_dbg', '_msize_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['call', '_malloc_dbg', '_msize_dbg'], ['ret', '_msize_dbg', '_malloc_dbg']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_malloc_dbg'], ['ret', '_malloc_dbg', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['ret', '_flsbuf', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError'], ['ret', 'GetLastError', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue'], ['ret', 'FlsGetValue', '__crtCapturePreviousContext']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['ret', '__crtCapturePreviousContext', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError'], ['ret', 'RtlRestoreLastWin32Error', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['ret', '_getptd', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['ret', '_getptd', 'void __cdecl Concurrency']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'GetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'GetLastError'], ['ret', 'GetLastError', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue'], ['ret', 'FlsGetValue', '__crtCapturePreviousContext']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['ret', '__crtCapturePreviousContext', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'SetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'SetLastError'], ['ret', 'RtlRestoreLastWin32Error', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['ret', '_getptd', '_errno']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['ret', '_errno', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_fileno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_fileno'], ['ret', '_fileno', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcprintf_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcprintf_l'], ['ret', '_vcprintf_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_isleadbyte_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_isleadbyte_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_isleadbyte_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['ret', '_isleadbyte_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'malloc']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'malloc'], ['ret', 'malloc', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_fileno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_fileno'], ['ret', '_fileno', '_fflush_nolock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe'], ['call', '_pipe', 'RtlEnterCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe'], ['call', '_pipe', 'RtlEnterCriticalSection'], ['ret', 'RtlEnterCriticalSection', '_pipe']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe'], ['ret', '_pipe', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_initptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_initptd'], ['ret', '_initptd', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetStdHandle']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetStdHandle'], ['ret', 'GetStdHandle', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write'], ['ret', '_write', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_isatty']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['ret', '_isatty', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError'], ['ret', 'GetLastError', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue'], ['ret', 'FlsGetValue', '__crtCapturePreviousContext']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['ret', '__crtCapturePreviousContext', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError'], ['ret', 'RtlRestoreLastWin32Error', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['ret', '_getptd', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['ret', '_getptd', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'NtDeviceIoControlFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'NtDeviceIoControlFile'], ['ret', 'NtDeviceIoControlFile', 'GetConsoleMode']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'WaitForMultipleObjectsEx']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'WaitForMultipleObjectsEx'], ['ret', 'WaitForMultipleObjectsEx', 'GetConsoleMode']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['ret', 'GetConsoleMode', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile'], ['call', 'WriteFile', 'NtWriteFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile'], ['call', 'WriteFile', 'NtWriteFile'], ['ret', 'NtWriteFile', 'WriteFile']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile'], ['ret', 'WriteFile', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'malloc']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'malloc'], ['ret', 'malloc', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['ret', '_write', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle'], ['call', '_open_osfhandle', 'RtlLeaveCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle'], ['call', '_open_osfhandle', 'RtlLeaveCriticalSection'], ['ret', 'RtlLeaveCriticalSection', '_open_osfhandle']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle'], ['ret', '_open_osfhandle', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['ret', '_write', '_fflush_nolock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['ret', '_fflush_nolock', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['ret', '_flsbuf', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock'], ['call', '_unlock', 'RtlLeaveCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock'], ['call', '_unlock', 'RtlLeaveCriticalSection'], ['ret', 'RtlLeaveCriticalSection', '_unlock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock'], ['ret', '_unlock', '_unlock_file']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['ret', '_unlock_file', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['ret', 'printf', 'NewToy']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [])
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock'], ['call', '_lock', 'RtlEnterCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock'], ['call', '_lock', 'RtlEnterCriticalSection'], ['ret', 'RtlEnterCriticalSection', '_lock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['call', '_lock_file', '_lock'], ['ret', '_lock', '_lock_file']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_lock_file'], ['ret', '_lock_file', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fileno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fileno'], ['ret', '_fileno', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_isatty']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_isatty'], ['ret', '_isatty', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '__iob_func'], ['ret', '__iob_func', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['ret', '_flsbuf', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError'], ['ret', 'GetLastError', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue'], ['ret', 'FlsGetValue', '__crtCapturePreviousContext']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['ret', '__crtCapturePreviousContext', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError'], ['ret', 'RtlRestoreLastWin32Error', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['call', '_getptd', '_getptd'], ['ret', '_getptd', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['call', 'void __cdecl Concurrency', '_getptd'], ['ret', '_getptd', 'void __cdecl Concurrency']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'GetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'GetLastError'], ['ret', 'GetLastError', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue'], ['ret', 'FlsGetValue', '__crtCapturePreviousContext']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['ret', '__crtCapturePreviousContext', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'SetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['call', '_getptd', 'SetLastError'], ['ret', 'RtlRestoreLastWin32Error', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['call', '_errno', '_getptd'], ['ret', '_getptd', '_errno']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_errno'], ['ret', '_errno', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_fileno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_fileno'], ['ret', '_fileno', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcprintf_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcprintf_l'], ['ret', '_vcprintf_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_isleadbyte_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_isleadbyte_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['call', '_isleadbyte_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_isleadbyte_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_isleadbyte_l'], ['ret', '_isleadbyte_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'void __cdecl Concurrency'], ['ret', 'void __cdecl Concurrency', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'malloc']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['call', '_vcwprintf_s_l', 'malloc'], ['ret', 'malloc', '_vcwprintf_s_l']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_vcwprintf_s_l'], ['ret', '_vcwprintf_s_l', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_fileno']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_fileno'], ['ret', '_fileno', '_fflush_nolock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe'], ['call', '_pipe', 'RtlEnterCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe'], ['call', '_pipe', 'RtlEnterCriticalSection'], ['ret', 'RtlEnterCriticalSection', '_pipe']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_pipe'], ['ret', '_pipe', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_initptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_initptd'], ['ret', '_initptd', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetStdHandle']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetStdHandle'], ['ret', 'GetStdHandle', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_write'], ['ret', '_write', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['call', 'InitOnceExecuteOnce', 'RtlRunOnceExecuteOnce'], ['ret', 'RtlRunOnceExecuteOnce', 'InitOnceExecuteOnce']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['call', '_set_malloc_crt_max_wait', 'InitOnceExecuteOnce'], ['ret', 'InitOnceExecuteOnce', '_set_malloc_crt_max_wait']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['call', '_isatty', '_set_malloc_crt_max_wait'], ['ret', '_set_malloc_crt_max_wait', '_isatty']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_isatty'], ['ret', '_isatty', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'GetLastError'], ['ret', 'GetLastError', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['call', '__crtCapturePreviousContext', 'FlsGetValue'], ['ret', 'FlsGetValue', '__crtCapturePreviousContext']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', '__crtCapturePreviousContext'], ['ret', '__crtCapturePreviousContext', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['call', '_getptd', 'SetLastError'], ['ret', 'RtlRestoreLastWin32Error', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['call', '_getptd', '_getptd'], ['ret', '_getptd', '_getptd']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', '_getptd'], ['ret', '_getptd', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'NtDeviceIoControlFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'NtDeviceIoControlFile'], ['ret', 'NtDeviceIoControlFile', 'GetConsoleMode']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'WaitForMultipleObjectsEx']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['call', 'GetConsoleMode', 'WaitForMultipleObjectsEx'], ['ret', 'WaitForMultipleObjectsEx', 'GetConsoleMode']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'GetConsoleMode'], ['ret', 'GetConsoleMode', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile'], ['call', 'WriteFile', 'NtWriteFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile'], ['call', 'WriteFile', 'NtWriteFile'], ['ret', 'NtWriteFile', 'WriteFile']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'WriteFile'], ['ret', 'WriteFile', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'malloc']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['call', '_write', 'malloc'], ['ret', 'malloc', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_write'], ['ret', '_write', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle'], ['call', '_open_osfhandle', 'RtlLeaveCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle'], ['call', '_open_osfhandle', 'RtlLeaveCriticalSection'], ['ret', 'RtlLeaveCriticalSection', '_open_osfhandle']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['call', '_write', '_open_osfhandle'], ['ret', '_open_osfhandle', '_write']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['call', '_fflush_nolock', '_write'], ['ret', '_write', '_fflush_nolock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['call', '_flsbuf', '_fflush_nolock'], ['ret', '_fflush_nolock', '_flsbuf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_flsbuf'], ['ret', '_flsbuf', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '__iob_func'], ['ret', '__iob_func', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock'], ['call', '_unlock', 'RtlLeaveCriticalSection']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock'], ['call', '_unlock', 'RtlLeaveCriticalSection'], ['ret', 'RtlLeaveCriticalSection', '_unlock']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['call', '_unlock_file', '_unlock'], ['ret', '_unlock', '_unlock_file']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['call', 'printf', '_unlock_file'], ['ret', '_unlock_file', 'printf']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [['call', 'NewToy', 'printf']])
+('CURRENT STACK ', [['call', 'NewToy', 'printf'], ['ret', 'printf', 'NewToy']])
+CALL-RET MATCH, REMOVING
+('CURRENT STACK ', [])

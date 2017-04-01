@@ -213,6 +213,18 @@ The debug messages are printed on a debug screen. The following figure shows the
 ![Debugging messages printed on DbgView](screenshots/debug.png)
 
 
+## Applications
+
+Applications build upon the developed framework.
+
+### Debugger
+
+Coming soon.
+
+### ROP Detector
+
+As a result of BranchMonitoring framework, some Control Flow Integrity (CFI) policies for ROP attack detection were implemented. You can find on the *ROP* directory implementations for the *CALL-RET* and the *Gadget-Size* policies. Although I have previously described on an article a real-time solution, the hereby published tools are intended for post-analysis. However, you can easily implement these algorithms on the *DriverClient*, since the traces were retrieved from the tool.
+
 ## Open Implementation Issues
 
 I am performing some code clean up before publishing the final solution. This
@@ -223,7 +235,6 @@ What is missing:
 
 * **Inverted I/O implementation**: Used for *branch-by-branch* debugging.
 * **GDB stub**: The debugger client.
-* **ROP Detector**: A special client which implements a CFI policy.
 
 ## Limitations
 
@@ -247,3 +258,7 @@ This framework is presented as a *proof-of-concept* (PoC) of the branch monitori
 
 Multi-Core implementation is coming! I only need to hook
 *HalpPerfInterruptHandler*.
+
+## Publications
+
+I hope I could provide the community all details regarding branch monitoring on a near future.

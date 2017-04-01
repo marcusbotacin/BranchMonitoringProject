@@ -1,0 +1,11 @@
+***************************
+('Max : ', 478)
+('Min : ', 1)
+('Average : ', 38)
+('Applying Window of: ', 10)
+('Considering large enough: ', 3)
+('Considering number of repetitions: ', 3)
+***************************
+('Detected in', [2, 17, 36, 4, 2, 27, 13, 5, 46, 2])
+('Detected in', [2, 17, 36, 4, 2, 27, 13, 5, 46, 2])
+***************************
