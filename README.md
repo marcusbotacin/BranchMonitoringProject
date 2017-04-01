@@ -239,7 +239,7 @@ As a result of BranchMonitoring framework, some Control Flow Integrity (CFI) pol
 The *Utils* directory contains some tools and utilities for binary analysis using BranchMonitor. Currently, the following tools are available:
 
 * **PrintFunc**: A simple script for printing the functions called on a given trace
-* **TBD**: To be addedd
+* **ManualDisasm**: A [pybfd](https://github.com/Groundworkstech/pybfd)-based solution for disasming small bytes.
 
 ### PrintFunc
 
@@ -281,6 +281,39 @@ python PrintFunc.py $1 $2 | sort | uniq -c | sort -gr
 10 TerminateThread
 2 ExitProcess
 ```
+
+### ManualDisasm
+
+A tool to disasm small pieces of code from trace-retrieved data. 
+
+*Usage Example*:
+
+```
+Usage: python ManualDisasm.py <trace> <addr>
+```
+
+Example Considering the following trace excerpt:
+
+```
+should disasm from 444417 to 444427
+\x8b\x45\xf0\x3b\xc7\x74\x11\x8d\x4d\xf0\x51\x8b\x4d\x08\x48\x50
+```
+
+*Command Example*:
+
+```
+python ManualDisasm.py "\x8b\x45\xf0\x3b\xc7\x74\x11\x8d\x4d\xf0\x51\x8b\x4d\x08\x48\x50" 0
+```
+*Command Output*:
+
+```
+0x4 (size=1)	 pop    rsp
+0x5 (size=2)	 js     0x000000000000003b
+0x7 (size=5)	 xor    eax,0x3066785c
+0xC (size=1)	 pop    rsp
+0xD (size=2)	 js     0x0000000000000042
+```
+
 ## Open Implementation Issues
 
 I am performing some code clean up before publishing the final solution. This
