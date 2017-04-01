@@ -42,6 +42,7 @@ The repository is organized as follows:
 * **Transparency.Tests**: Tools to attest BranchMonitor's transparency.
 * **ROP**: CFI verification tools to be used on execution traces.
 * **Debugger**: A debugger built upon BranchMonitor framework.
+* **Utils**: General utils for binary analysis using BranchMonitor.
 
 
 ### Dependencies
@@ -233,6 +234,53 @@ More information is coming soon.
 
 As a result of BranchMonitoring framework, some Control Flow Integrity (CFI) policies for ROP attack detection were implemented. You can find on the *ROP* directory implementations for the *CALL-RET* and the *Gadget-Size* policies. Although I have previously described on an article a real-time solution, the hereby published tools are intended for post-analysis. However, you can easily implement these algorithms on the *DriverClient*, since the traces were retrieved from the tool.
 
+## Utils
+
+The *Utils* directory contains some tools and utilities for binary analysis using BranchMonitor. Currently, the following tools are available:
+
+* **PrintFunc**: A simple script for printing the functions called on a given trace
+* **TBD**: To be addedd
+
+### PrintFunc
+
+This utility should be used as follows:
+
+```
+Usage: python PrintFunc.py <trace> --remove-offsets
+
+```
+
+The called functions can be printed considering or not their offsets, as shown below:
+
+*Considering Offsets*:
+```
+LdrShutdownProcess+0x256
+LdrShutdownProcess+0x2b7
+RtlExitUserProcess+0xac
+```
+
+*Discarding Offsets*:
+```
+LdrShutdownProcess
+LdrShutdownProcess
+RtlExitUserProcess
+```
+
+You can filter the output in order to increase your analysis power. The following example shows function calls being counted.
+
+*Counting command*:
+
+```
+python PrintFunc.py $1 $2 | sort | uniq -c | sort -gr
+```
+*Command Output*:
+
+```
+56 printf
+12 WriteFile
+10 TerminateThread
+2 ExitProcess
+```
 ## Open Implementation Issues
 
 I am performing some code clean up before publishing the final solution. This
