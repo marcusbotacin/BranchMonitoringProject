@@ -178,6 +178,18 @@ After its startup, the client is already working, as shown below:
 
 ![BranchClient in action](screenshots/BranchClient.png)
 
+#### Examples
+
+The *BranchClient\examples* directory contains some trace examples obtained from real malware samples. I hope they could clarify BranchMonitor's role on binary monitoring. Some identified actions are shown below:
+
+```
+LIB C:\Windows\SysWOW64\user32.dll at 74c68038 (GetCursorPos+0x12) returned to Binary avr.exe at 465806
+```
+
+```
+LIB C:\Windows\SysWOW64\user32.dll at 76489ddc (IsWindowVisible+0x38) returned to Binary Chrome.exe at 4c52a5
+```
+
 ### Debugging
 
 You can check debug messages if the driver was compiled using the DEBUG flag, as shown:
