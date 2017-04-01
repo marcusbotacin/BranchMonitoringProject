@@ -194,6 +194,10 @@ LIB C:\Windows\SysWOW64\user32.dll at 74c68038 (GetCursorPos+0x12) returned to B
 LIB C:\Windows\SysWOW64\user32.dll at 76489ddc (IsWindowVisible+0x38) returned to Binary Chrome.exe at 4c52a5
 ```
 
+In such cases, these functions were used to display the following message:
+
+![Message displayed by a malware sample](screenshots/malware.png))
+
 #### Transparency
 
 One of biggest advantages of using BranchMonitor is the provided transparency. In order to verify such claim, you can use the checks from the *Transparency.Tests* directory. My intention is not to provide an exhaustive list of *anti-dbg* techniques, but some transparency insights instead. 
