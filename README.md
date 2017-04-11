@@ -374,8 +374,18 @@ This framework is presented as a *proof-of-concept* (PoC) of the branch monitori
 
 ## Future Plans
 
-Multi-Core implementation is coming! I only need to hook
+* Multi-Core implementation is coming! I only need to hook
 *HalpPerfInterruptHandler*.
+* Linux version is coming!
+
+## Contributions
+
+I really would like to receive your contributions. By now, a non-exhaustive list of possible contributions:
+
+* *Missing implementing features*: See *Limitations* section.
+* *Solving TO-DOs*: Lots of improvements along the code.
+* *Replacing insecure functions*: Remove all *strcpy* and *shell=True* from the code.
+* *Add new Utils*: The more analysis tools the better!
 
 ## Publications
 
