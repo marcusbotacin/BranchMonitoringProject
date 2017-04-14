@@ -1,0 +1,18 @@
+Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1ca1> to Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c90>
+should disasm from 7ff6d6ec1c9a to 7ff6d6ec1ca1
+add rbx, 8
+cmp rbx, rdi
+Disasm 1 instr from 7ff6d6ec1ca1
+jb 0xfef
+Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c96> to Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c9a>
+should disasm from 7ff6d6ec1c90 to 7ff6d6ec1c96
+mov rax, qword ptr [rbx]
+test rax, rax
+Disasm 1 instr from 7ff6d6ec1c96
+je 0x1004
+Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1ca1> to Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c90>
+should disasm from 7ff6d6ec1c9a to 7ff6d6ec1ca1
+add rbx, 8
+cmp rbx, rdi
+Disasm 1 instr from 7ff6d6ec1ca1
+jb 0xfef

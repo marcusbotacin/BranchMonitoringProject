@@ -43,6 +43,7 @@ The repository is organized as follows:
 * **ROP**: CFI verification tools to be used on execution traces.
 * **Debugger**: A debugger built upon BranchMonitor framework.
 * **Utils**: General utils for binary analysis using BranchMonitor.
+* **PIN.Branch.Monitor**: A DBT-Based branch monitor implementation, used for comparative purposes.
 
 
 ### Dependencies
@@ -140,6 +141,9 @@ paths on the compilation project, as shown below:
 
 In my computer, I was compiling under C:\\. If you are compiling from other dir,
 you need to point /src path properly.
+
+To make the *BranchClient* compilation easier, I included the
+*capstone-3.0.4-win64* on the repository.
 
 You should also define system architecture and configurations, as shown below:
 
@@ -343,6 +347,44 @@ python ManualDisasm.py "\x8b\x45\xf0\x3b\xc7\x74\x11\x8d\x4d\xf0\x51\x8b\x4d\x08
 0xC (size=1)	 pop    rsp
 0xD (size=2)	 js     0x0000000000000042
 ```
+
+## Comparing BranchMonitor with other solutions
+
+Always as possible, I try to compare BranchMonitor with other solutions,
+either for validation or evaluation. For such purpose, I present here a
+Dynamic Binary Translation (DBT) tool, implemented on [Intel
+PIN](https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool).
+The tool directory, *PIN.Branch.Monitor*, is organized as follows:
+
+* *Windows*: Instrumentation code to be run on Windows.
+* *Linux*: Instrumentation code to be run on Linux.
+* *Comparison*: Comparison results between PIN tool and BranchMonitor.
+
+As this tool is implemented as an instrumentation code, it can be run on
+Linux or Windows. The small differences between the two versions are
+function or type names.
+
+The *Comparison* directory presents the results from running the
+*Branch.Tester* code on BranchMonitor and the PIN tool. As can be
+noticed on the example above, the results are similar.
+
+*PIN Result*:
+
+```
+From: 0000000077332F89 To: 0x7732ec90 Disasm of 1 instr: call
+From: 000000007732EC97 To: 0x7732ecab Disasm of 1 instr: jnz
+Disasm of 0x7 bytes from 000000007732EC90: 0x48 0x3b 0xd 0x39 0x8e 0xe 0x0
+```
+
+*BranchMonitor Result*:
+
+```
+Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1ca1> to Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c90>
+Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c96> to Binary C:\BranchMonitoringProject\Branch.Tester\x64\Debug\Branch.Tester.exe at <0x1c9a>
+should disasm from 7ff6d6ec1c90 to 7ff6d6ec1c96
+```
+
+On both cases, the same number of bytes were considered on the execution trace.
 
 ## Open Implementation Issues
 
