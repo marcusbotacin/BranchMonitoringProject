@@ -432,3 +432,12 @@ I really would like to receive your contributions. By now, a non-exhaustive list
 ## Publications
 
 I hope I could provide the community all details regarding branch monitoring on a near future.
+
+## Mentions to the BranchMonitoring project
+
+It is always great to have you efforts acknowledged, so I present here some mentions to this work:
+
+* [Capstone Site](http://www.capstone-engine.org/showcase.html)
+* [Redit Topic](https://www.reddit.com/r/ReverseEngineering/comments/5ycg08/code_tracing_framework_based_on_intel_branch/)
+
+Please tell me if you are using/referring this project.
