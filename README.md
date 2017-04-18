@@ -433,6 +433,10 @@ I really would like to receive your contributions. By now, a non-exhaustive list
 
 I hope I could provide the community all details regarding branch monitoring on a near future.
 
+## Media
+
+Check out our [Youtube playlist](https://www.youtube.com/watch?v=BguVzqMt_j0&list=PLVYZ2jULLUDvqFVpU3pCZGlY9gCzYoyXP).
+
 ## Mentions to the BranchMonitoring project
 
 It is always great to have you efforts acknowledged, so I present here some mentions to this work:
