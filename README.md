@@ -59,6 +59,7 @@ The repository is organized as follows:
 * Automatic launcher requires [Python](https://www.python.org/), [Sysinternals](https://technet.microsoft.com/en-us/sysinternals/bb545021.aspx), [BeautifulSoup](https://pypi.python.org/pypi/beautifulsoup4), [Codecs](https://docs.python.org/2/library/codecs.html), and [ConfigParser](https://docs.python.org/2/library/configparser.html).
 * DLL dumps for *DumpDLL* are obtained using [DLL Export
   Viewer](http://www.nirsoft.net/utils/dll_export_viewer.html).
+* The traces inputed to the *Divergence.Analysis* tool are aligned using the [Alignment library](https://pypi.python.org/pypi/alignment/1.0.9).
 
 ### Configuring
 
