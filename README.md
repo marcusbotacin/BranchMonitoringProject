@@ -270,6 +270,26 @@ The gadget size policy is a heuristic which assumes ROP gadgets are smaller than
 ('Detected in', [2, 17, 36, 4, 2, 27, 13, 5, 46, 2])
 ```
 
+### Anti-Analysis Tricks Detection
+
+Given the transparency characteristic, our framework is able to execute anti-analysis tricks without any problem. It allows us to perform pattern matching searches for evasion attempts and other tricks. By using [these detectors](https://github.com/marcusbotacin/Anti.Analysis), I was able to detect some of them, shown below:
+
+Fake Conditional Jump:
+```
+4001b: xor    %eax,%eax
+4001d: jne    4000 <main>
+4001f: pop    %rbp
+```
+
+CPU Comparsion:
+```
+4400:   push   %rbp
+4401:   str    0x0(%ebp)
+4406:   mov    %rsp,%rbp
+4409:   mov    $0x0,%edi
+440e:   callq  44013 <main+0x13>
+```
+
 ## Utils
 
 The *Utils* directory contains some tools and utilities for binary analysis using BranchMonitor. Currently, the following tools are available:
