@@ -212,6 +212,8 @@ Currently implemented tests:
 * *CheckRemoteDebugger*
 * *OutputDebugString*
 
+For more information about anti-analysis tricks, check [this](https://github.com/marcusbotacin/Anti.Analysis).
+
 ### Debugging
 
 You can check debug messages if the driver was compiled using the DEBUG flag, as shown:
