@@ -281,7 +281,7 @@ Fake Conditional Jump:
 4001f: pop    %rbp
 ```
 
-CPU Comparsion:
+CPU Comparison:
 ```
 4400:   push   %rbp
 4401:   str    0x0(%ebp)
@@ -289,6 +289,22 @@ CPU Comparsion:
 4409:   mov    $0x0,%edi
 440e:   callq  44013 <main+0x13>
 ```
+
+### Divergence Analysis
+
+One can also use our transparent tracer as a groundtruth for evaluating the way a binary executes inside another tracing tool. The tool under the *Utils/Divergence.Analysis* is suited for this task. A divergence example is shown below:
+
+```
+0x01 | 0x01
+0x02 | 0x02
+    / \
+---- | 0x41
+0x03 | 0x42
+    \ /
+0x05 | 0x05
+0x06 | 0x06
+```
+The aforementioned tricks were also detected by inspecting the instruction block placed right before a divergent branch instruction.
 
 ## Utils
 
