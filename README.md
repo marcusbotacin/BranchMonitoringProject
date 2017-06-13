@@ -453,6 +453,10 @@ This framework is presented as a *proof-of-concept* (PoC) of the branch monitori
 * **BranchClient Multi-Thread Support**: How to launch more threads without
   breaking flow tracking ?
 
+## Other Research Using BranchMonitor
+
+* [Malware Variants Identification](https://github.com/marcusbotacin/Malware.Variants)
+
 ## Future Plans
 
 * Multi-Core implementation is coming! I only need to hook
