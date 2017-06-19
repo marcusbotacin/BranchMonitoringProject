@@ -431,10 +431,6 @@ I am performing some code clean up before publishing the final solution. This
 way, some features are not available yet. I plan to release such features as
 soon as possible. 
 
-What is missing:
-
-* **Inverted I/O implementation**: Used for *branch-by-branch* debugging.
-
 ## Limitations
 
 This framework is presented as a *proof-of-concept* (PoC) of the branch monitoring capabilities, thus some limitations exists, such as:
