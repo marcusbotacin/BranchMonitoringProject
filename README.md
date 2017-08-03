@@ -37,7 +37,8 @@ The repository is organized as follows:
 * **Branch.Tester**: A loop program used for validation purposes.
 * **Launcher**: A tool to ease monitoring process start up. Given a PID, dumps all
   memory address and supplies them as inputs to the advanced client.
-* **BranchMonitor**: The monitoring driver.
+* **BranchMonitor**: The monitoring driver (NMI handler).
+* **BranchMonitor.2**: The monitoring driver (PMI handler).
 * **DumpDLL**: A tool to ease introspection headers generation.
 * **Transparency.Tests**: Tools to attest BranchMonitor's transparency.
 * **ROP**: CFI verification tools to be used on execution traces.
@@ -45,6 +46,9 @@ The repository is organized as follows:
 * **Utils**: General utils for binary analysis using BranchMonitor.
 * **PIN.Branch.Monitor**: A DBT-Based branch monitor implementation, used for comparative purposes.
 
+### Versions
+
+Currently, the *BranchMonitor* driver is available on two versions. The first is implemented using an NMI callback to handle interrupts whereas the second is implemented by hooking the performance handler to do so.
 
 ### Dependencies
 
@@ -455,8 +459,7 @@ This framework is presented as a *proof-of-concept* (PoC) of the branch monitori
 
 ## Future Plans
 
-* Multi-Core implementation is coming! I only need to hook
-*HalpPerfInterruptHandler*.
+* Multi-Core implementation is coming!
 * Linux version is coming!
 
 ## Contributions
