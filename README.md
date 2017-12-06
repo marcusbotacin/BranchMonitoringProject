@@ -37,8 +37,8 @@ The repository is organized as follows:
 * **Branch.Tester**: A loop program used for validation purposes.
 * **Launcher**: A tool to ease monitoring process start up. Given a PID, dumps all
   memory address and supplies them as inputs to the advanced client.
-* **BranchMonitor**: The monitoring driver (NMI handler).
-* **BranchMonitor.2**: The monitoring driver (PMI handler).
+* **BranchMonitor.NMI**: The monitoring driver (NMI handler).
+* **BranchMonitor.PMI**: The monitoring driver (PMI handler).
 * **DumpDLL**: A tool to ease introspection headers generation.
 * **Transparency.Tests**: Tools to attest BranchMonitor's transparency.
 * **ROP**: CFI verification tools to be used on execution traces.
@@ -459,8 +459,7 @@ This framework is presented as a *proof-of-concept* (PoC) of the branch monitori
 
 ## Future Plans
 
-* Multi-Core implementation is coming!
-* Linux version is coming!
+* Linux version.
 
 ## Contributions
 
@@ -473,7 +472,17 @@ I really would like to receive your contributions. By now, a non-exhaustive list
 
 ## Publications
 
-I hope I could provide the community all details regarding branch monitoring on a near future.
+My academic work related to branch monitoring.
+
+### In English
+
+The work *Enhancing Branch Monitoring for Security Purposes: From Control Flow Integrity to Malware Analysis and Debugging* will appear in the [ACM Transactions on Privacy and Security (TOPS)](http://tops.acm.org/).
+
+### In Portuguese
+
+* [VoiDbg: Projeto e Implementação de um Debugger Transparente para Inspeção de Aplicações Protegidas](http://sbseg2016.ic.uff.br/pt/files/anais/completos/ST6-1.pdf)
+* [Detecção de ataques por ROP em tempo real assistida por hardware](http://sbseg2016.ic.uff.br/pt/files/anais/completos/ST6-4.pdf)
+* [Análise Transparente de Malware com Suporte por Hardware](http://sbseg2016.ic.uff.br/pt/files/anais/completos/ST8-3.pdf)
 
 ## Media
 
