@@ -1,0 +1,2923 @@
+<?xml version="1.0"  encoding="ISO-8859-1" ?>
+<drivers_list>
+<item>
+<driver_name>ACPI.sys</driver_name>
+<address>00000000`0116A000</address>
+<end_address>00000000`011D7000</end_address>
+<size>0x0006d000</size>
+<load_count>1</load_count>
+<index>14</index>
+<file_type>System Driver</file_type>
+<description>ACPI Driver for NT</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 01:57:54</modified_date>
+<created_date>25/07/2012 23:28:29</created_date>
+<filename>C:\Windows\System32\drivers\ACPI.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>ACPI</service_name>
+<service_display_name>@acpi.inf,%ACPI.SvcDesc%;Microsoft ACPI Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>acpiex.sys</driver_name>
+<address>00000000`01148000</address>
+<end_address>00000000`0115F000</end_address>
+<size>0x00017000</size>
+<load_count>1</load_count>
+<index>12</index>
+<file_type>Dynamic Link Library</file_type>
+<description>ACPIEx Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:57</modified_date>
+<created_date>25/07/2012 23:25:57</created_date>
+<filename>C:\Windows\System32\Drivers\acpiex.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>acpiex</service_name>
+<service_display_name>Microsoft ACPIEx Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>acpipagr.sys</driver_name>
+<address>00000000`042E4000</address>
+<end_address>00000000`042EE000</end_address>
+<size>0x0000a000</size>
+<load_count>1</load_count>
+<index>92</index>
+<file_type>System Driver</file_type>
+<description>ACPI Processor Aggregator Device Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:27:16</modified_date>
+<created_date>25/07/2012 23:27:16</created_date>
+<filename>C:\Windows\System32\drivers\acpipagr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>acpipagr</service_name>
+<service_display_name>@acpipagr.inf,%SvcDesc%;ACPI Processor Aggregator Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>afd.sys</driver_name>
+<address>00000000`03C00000</address>
+<end_address>00000000`03C92000</end_address>
+<size>0x00092000</size>
+<load_count>1</load_count>
+<index>62</index>
+<file_type>System Driver</file_type>
+<description>Ancillary Function Driver for WinSock</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\system32\drivers\afd.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>AFD</service_name>
+<service_display_name>Ancillary Function Driver for Winsock</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>AgileVpn.sys</driver_name>
+<address>00000000`01DE8000</address>
+<end_address>00000000`01E00000</end_address>
+<size>0x00018000</size>
+<load_count>1</load_count>
+<index>76</index>
+<file_type>Network Driver</file_type>
+<description>RAS Agile Vpn Miniport Call Manager</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:11</modified_date>
+<created_date>25/07/2012 23:23:12</created_date>
+<filename>C:\Windows\system32\DRIVERS\AgileVpn.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>RasAgileVpn</service_name>
+<service_display_name>@netavpna.inf,%Svc-Mp-AgileVpn-DispName%;Miniporta WAN (IKEv2)</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>BasicDisplay.sys</driver_name>
+<address>00000000`03EC5000</address>
+<end_address>00000000`03ED6000</end_address>
+<size>0x00011000</size>
+<load_count>1</load_count>
+<index>56</index>
+<file_type>Display Driver</file_type>
+<description>Microsoft Basic Display Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:29:08</modified_date>
+<created_date>25/07/2012 23:29:08</created_date>
+<filename>C:\Windows\System32\drivers\BasicDisplay.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>BasicDisplay</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>BasicRender.sys</driver_name>
+<address>00000000`01FD2000</address>
+<end_address>00000000`01FDF000</end_address>
+<size>0x0000d000</size>
+<load_count>1</load_count>
+<index>52</index>
+<file_type>Display Driver</file_type>
+<description>Microsoft Basic Render Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:52</modified_date>
+<created_date>25/07/2012 23:28:52</created_date>
+<filename>C:\Windows\System32\drivers\BasicRender.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>BasicRender</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Beep.SYS</driver_name>
+<address>00000000`01FCA000</address>
+<end_address>00000000`01FD2000</end_address>
+<size>0x00008000</size>
+<load_count>1</load_count>
+<index>51</index>
+<file_type>System Driver</file_type>
+<description>BEEP Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:30:19</modified_date>
+<created_date>25/07/2012 23:30:19</created_date>
+<filename>C:\Windows\System32\Drivers\Beep.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>BOOTVID.dll</driver_name>
+<address>00000000`00DBA000</address>
+<end_address>00000000`00DC4000</end_address>
+<size>0x0000a000</size>
+<load_count>1</load_count>
+<index>7</index>
+<file_type>Display Driver</file_type>
+<description>VGA Boot Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:57:54</modified_date>
+<created_date>25/07/2012 23:30:22</created_date>
+<filename>C:\Windows\system32\BOOTVID.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>bowser.sys</driver_name>
+<address>00000000`0A757000</address>
+<end_address>00000000`0A777000</end_address>
+<size>0x00020000</size>
+<load_count>1</load_count>
+<index>128</index>
+<file_type>System Driver</file_type>
+<description>NT Lan Manager Datagram Receiver Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:01</modified_date>
+<created_date>25/07/2012 23:28:01</created_date>
+<filename>C:\Windows\system32\DRIVERS\bowser.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>bowser</service_name>
+<service_display_name>Driver de Suporte a Navegador</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>cdd.dll</driver_name>
+<address>00000000`00833000</address>
+<end_address>00000000`00869000</end_address>
+<size>0x00036000</size>
+<load_count>1</load_count>
+<index>123</index>
+<file_type>Display Driver</file_type>
+<description>Canonical Display Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:49:37</modified_date>
+<created_date>25/07/2012 23:26:03</created_date>
+<filename>C:\Windows\System32\cdd.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>CI.dll</driver_name>
+<address>00000000`00C00000</address>
+<end_address>00000000`00C7F000</end_address>
+<size>0x0007f000</size>
+<load_count>2</load_count>
+<index>8</index>
+<file_type>System Driver</file_type>
+<description>Code Integrity Module</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:52:34</modified_date>
+<created_date>25/07/2012 23:26:14</created_date>
+<filename>C:\Windows\system32\CI.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>CLASSPNP.SYS</driver_name>
+<address>00000000`01EEF000</address>
+<end_address>00000000`01F45000</end_address>
+<size>0x00056000</size>
+<load_count>1</load_count>
+<index>48</index>
+<file_type>System Driver</file_type>
+<description>SCSI Class System Dll</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\System32\drivers\CLASSPNP.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>CLFS.SYS</driver_name>
+<address>00000000`00D26000</address>
+<end_address>00000000`00D82000</end_address>
+<size>0x0005c000</size>
+<load_count>4</load_count>
+<index>4</index>
+<file_type>System Driver</file_type>
+<description>Common Log File System Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:57:54</modified_date>
+<created_date>25/07/2012 23:29:41</created_date>
+<filename>C:\Windows\System32\drivers\CLFS.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name>CLFS</service_name>
+<service_display_name>Common Log (CLFS)</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>cng.sys</driver_name>
+<address>00000000`01259000</address>
+<end_address>00000000`012E5000</end_address>
+<size>0x0008c000</size>
+<load_count>7</load_count>
+<index>18</index>
+<file_type>System Driver</file_type>
+<description>Kernel Cryptography, Next Generation</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:51:20</modified_date>
+<created_date>25/07/2012 23:26:37</created_date>
+<filename>C:\Windows\System32\Drivers\cng.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>CNG</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>CompositeBus.sys</driver_name>
+<address>00000000`01ECF000</address>
+<end_address>00000000`01EDE000</end_address>
+<size>0x0000f000</size>
+<load_count>1</load_count>
+<index>77</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Multi-Transport Composite Bus Enumerator</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:03</modified_date>
+<created_date>25/07/2012 23:28:03</created_date>
+<filename>C:\Windows\System32\drivers\CompositeBus.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>CompositeBus</service_name>
+<service_display_name>@CompositeBus.inf,%CompositeBus.SVCDESC%;Composite Bus Enumerator Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>condrv.sys</driver_name>
+<address>00000000`0973A000</address>
+<end_address>00000000`09747000</end_address>
+<size>0x0000d000</size>
+<load_count>1</load_count>
+<index>145</index>
+<file_type>System Driver</file_type>
+<description>Console Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\System32\drivers\condrv.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>condrv</service_name>
+<service_display_name>Console Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>crashdmp.sys</driver_name>
+<address>00000000`01F45000</address>
+<end_address>00000000`01F59000</end_address>
+<size>0x00014000</size>
+<load_count>1</load_count>
+<index>49</index>
+<file_type>System Driver</file_type>
+<description>Crash Dump Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:48</modified_date>
+<created_date>25/07/2012 23:29:24</created_date>
+<filename>C:\Windows\System32\Drivers\crashdmp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>csc.sys</driver_name>
+<address>00000000`01E00000</address>
+<end_address>00000000`01E91000</end_address>
+<size>0x00091000</size>
+<load_count>1</load_count>
+<index>66</index>
+<file_type>System Driver</file_type>
+<description>Windows Client Side Caching Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:53</modified_date>
+<created_date>25/07/2012 23:26:53</created_date>
+<filename>C:\Windows\system32\drivers\csc.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>CSC</service_name>
+<service_display_name>Driver de Arquivos Offline</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>dfsc.sys</driver_name>
+<address>00000000`01EAE000</address>
+<end_address>00000000`01ECF000</end_address>
+<size>0x00021000</size>
+<load_count>1</load_count>
+<index>72</index>
+<file_type>System Driver</file_type>
+<description>DFS Namespace Client Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:53</modified_date>
+<created_date>25/07/2012 23:26:53</created_date>
+<filename>C:\Windows\System32\Drivers\dfsc.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Dfsc</service_name>
+<service_display_name>Driver de Cliente para Namespaces de DFS</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>discache.sys</driver_name>
+<address>00000000`01E9D000</address>
+<end_address>00000000`01EAE000</end_address>
+<size>0x00011000</size>
+<load_count>1</load_count>
+<index>71</index>
+<file_type>Dynamic Link Library</file_type>
+<description>System Indexer/Cache Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:23</modified_date>
+<created_date>25/07/2012 23:28:24</created_date>
+<filename>C:\Windows\System32\drivers\discache.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>discache</service_name>
+<service_display_name>System Attribute Cache</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>disk.sys</driver_name>
+<address>00000000`0169F000</address>
+<end_address>00000000`016BB000</end_address>
+<size>0x0001c000</size>
+<load_count>1</load_count>
+<index>47</index>
+<file_type>System Driver</file_type>
+<description>PnP Disk Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:57:54</modified_date>
+<created_date>25/07/2012 23:29:26</created_date>
+<filename>C:\Windows\System32\drivers\disk.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>disk</service_name>
+<service_display_name>@disk.inf,%disk_ServiceDesc%;Disk Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>drmk.sys</driver_name>
+<address>00000000`0444B000</address>
+<end_address>00000000`0446D000</end_address>
+<size>0x00022000</size>
+<load_count>1</load_count>
+<index>105</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Microsoft Trusted Audio Drivers</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:28</modified_date>
+<created_date>25/07/2012 23:28:29</created_date>
+<filename>C:\Windows\system32\drivers\drmk.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>dump_diskdump.sys</driver_name>
+<address>00000000`04D9A000</address>
+<end_address>00000000`04DA7000</end_address>
+<size>0x0000d000</size>
+<load_count>2</load_count>
+<index>118</index>
+<file_type>Unknown</file_type>
+<description></description>
+<version></version>
+<company></company>
+<product_name></product_name>
+<modified_date>N/A</modified_date>
+<created_date>N/A</created_date>
+<filename>C:\Windows\System32\Drivers\dump_diskdump.sys</filename>
+<file_attributes></file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>dump_dumpfve.sys</driver_name>
+<address>00000000`04DBD000</address>
+<end_address>00000000`04DD1000</end_address>
+<size>0x00014000</size>
+<load_count>1</load_count>
+<index>120</index>
+<file_type>Unknown</file_type>
+<description></description>
+<version></version>
+<company></company>
+<product_name></product_name>
+<modified_date>N/A</modified_date>
+<created_date>N/A</created_date>
+<filename>C:\Windows\System32\Drivers\dump_dumpfve.sys</filename>
+<file_attributes></file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>dump_storahci.sys</driver_name>
+<address>00000000`04DA7000</address>
+<end_address>00000000`04DBD000</end_address>
+<size>0x00016000</size>
+<load_count>1</load_count>
+<index>119</index>
+<file_type>Unknown</file_type>
+<description></description>
+<version></version>
+<company></company>
+<product_name></product_name>
+<modified_date>N/A</modified_date>
+<created_date>N/A</created_date>
+<filename>C:\Windows\System32\Drivers\dump_storahci.sys</filename>
+<file_attributes></file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>dxgkrnl.sys</driver_name>
+<address>00000000`03CFF000</address>
+<end_address>00000000`03E66000</end_address>
+<size>0x00167000</size>
+<load_count>2</load_count>
+<index>53</index>
+<file_type>System Driver</file_type>
+<description>DirectX Graphics Kernel</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:55:14</modified_date>
+<created_date>25/07/2012 23:26:29</created_date>
+<filename>C:\Windows\System32\drivers\dxgkrnl.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>DXGKrnl</service_name>
+<service_display_name>LDDM Graphics Subsystem</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>dxgmms1.sys</driver_name>
+<address>00000000`03E77000</address>
+<end_address>00000000`03EC5000</end_address>
+<size>0x0004e000</size>
+<load_count>1</load_count>
+<index>55</index>
+<file_type>System Driver</file_type>
+<description>DirectX Graphics MMS</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:55:14</modified_date>
+<created_date>25/07/2012 23:25:51</created_date>
+<filename>C:\Windows\System32\drivers\dxgmms1.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>EhStorClass.sys</driver_name>
+<address>00000000`015BC000</address>
+<end_address>00000000`015D6000</end_address>
+<size>0x0001a000</size>
+<load_count>1</load_count>
+<index>29</index>
+<file_type>System Driver</file_type>
+<description>Enhanced Storage Class driver for IEEE 1667 devices</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:51</modified_date>
+<created_date>25/07/2012 23:26:25</created_date>
+<filename>C:\Windows\System32\drivers\EhStorClass.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>EhStorClass</service_name>
+<service_display_name>Enhanced Storage Filter Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>fileinfo.sys</driver_name>
+<address>00000000`01460000</address>
+<end_address>00000000`01474000</end_address>
+<size>0x00014000</size>
+<load_count>1</load_count>
+<index>31</index>
+<file_type>System Driver</file_type>
+<description>FileInfo Filter Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:59:32</modified_date>
+<created_date>25/07/2012 23:28:03</created_date>
+<filename>C:\Windows\System32\drivers\fileinfo.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>FileInfo</service_name>
+<service_display_name>File Information FS MiniFilter</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>fltmgr.sys</driver_name>
+<address>00000000`01400000</address>
+<end_address>00000000`01460000</end_address>
+<size>0x00060000</size>
+<load_count>6</load_count>
+<index>30</index>
+<file_type>System Driver</file_type>
+<description>Gerenciador de Filtro do Filesystem Microsoft</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\system32\drivers\fltmgr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>FltMgr</service_name>
+<service_display_name>FltMgr</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Fs_Rec.sys</driver_name>
+<address>00000000`00FF2000</address>
+<end_address>00000000`00FFC000</end_address>
+<size>0x0000a000</size>
+<load_count>1</load_count>
+<index>36</index>
+<file_type>System Driver</file_type>
+<description>File System Recognizer Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\Drivers\Fs_Rec.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>fvevol.sys</driver_name>
+<address>00000000`01D1D000</address>
+<end_address>00000000`01D93000</end_address>
+<size>0x00076000</size>
+<load_count>1</load_count>
+<index>43</index>
+<file_type>System Driver</file_type>
+<description>BitLocker Drive Encryption Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:59:32</modified_date>
+<created_date>25/07/2012 23:26:47</created_date>
+<filename>C:\Windows\System32\DRIVERS\fvevol.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>fvevol</service_name>
+<service_display_name>Driver de Filtro de Criptografia de Unidade de Disco BitLocker</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>fwpkclnt.sys</driver_name>
+<address>00000000`01C9A000</address>
+<end_address>00000000`01D02000</end_address>
+<size>0x00068000</size>
+<load_count>9</load_count>
+<index>41</index>
+<file_type>Dynamic Link Library</file_type>
+<description>FWP/IPsec Kernel-Mode API</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\System32\drivers\fwpkclnt.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>hal.dll</driver_name>
+<address>00000000`97A17000</address>
+<end_address>00000000`97A83000</end_address>
+<size>0x0006c000</size>
+<load_count>30</load_count>
+<index>1</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Hardware Abstraction Layer DLL</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\system32\hal.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>HDAudBus.sys</driver_name>
+<address>00000000`06970000</address>
+<end_address>00000000`06986000</end_address>
+<size>0x00016000</size>
+<load_count>1</load_count>
+<index>81</index>
+<file_type>Sound Driver</file_type>
+<description>High Definition Audio Bus Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:27:36</modified_date>
+<created_date>25/07/2012 23:27:36</created_date>
+<filename>C:\Windows\System32\drivers\HDAudBus.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>HDAudBus</service_name>
+<service_display_name>@hdaudbus.inf,%HDAudBus.SVCDESC%;Microsoft UAA Bus Driver for High Definition Audio</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>HdAudio.sys</driver_name>
+<address>00000000`04CB8000</address>
+<end_address>00000000`04D10000</end_address>
+<size>0x00058000</size>
+<load_count>1</load_count>
+<index>108</index>
+<file_type>Sound Driver</file_type>
+<description>High Definition Audio Function Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:51</modified_date>
+<created_date>25/07/2012 23:26:51</created_date>
+<filename>C:\Windows\system32\drivers\HdAudio.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>HdAudAddService</service_name>
+<service_display_name>@hdaudio.inf,%UAAFunctionDriverForHdAudio.SvcDesc%;Driver de Função Microsoft 1.1 UAA para Serviço de High Definition Audio</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>HIDCLASS.SYS</driver_name>
+<address>00000000`04D40000</address>
+<end_address>00000000`04D5B000</end_address>
+<size>0x0001b000</size>
+<load_count>1</load_count>
+<index>111</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Hid Class Library</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:33</modified_date>
+<created_date>25/07/2012 23:28:33</created_date>
+<filename>C:\Windows\System32\drivers\HIDCLASS.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>HIDPARSE.SYS</driver_name>
+<address>00000000`04D5B000</address>
+<end_address>00000000`04D63000</end_address>
+<size>0x00008000</size>
+<load_count>4</load_count>
+<index>112</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Hid Parsing Library</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:30:15</modified_date>
+<created_date>25/07/2012 23:30:15</created_date>
+<filename>C:\Windows\System32\drivers\HIDPARSE.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>hidusb.sys</driver_name>
+<address>00000000`04D33000</address>
+<end_address>00000000`04D40000</end_address>
+<size>0x0000d000</size>
+<load_count>1</load_count>
+<index>110</index>
+<file_type>Dynamic Link Library</file_type>
+<description>USB Miniport Driver for Input Devices</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:26</modified_date>
+<created_date>25/07/2012 23:28:26</created_date>
+<filename>C:\Windows\System32\drivers\hidusb.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>HidUsb</service_name>
+<service_display_name>@input.inf,%HID.SvcDesc%;Microsoft HID Class Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>HTTP.sys</driver_name>
+<address>00000000`0A67B000</address>
+<end_address>00000000`0A757000</end_address>
+<size>0x000dc000</size>
+<load_count>1</load_count>
+<index>127</index>
+<file_type>System Driver</file_type>
+<description>Pilha do protocolo HTTP</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:24:58</modified_date>
+<created_date>25/07/2012 23:24:58</created_date>
+<filename>C:\Windows\system32\drivers\HTTP.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>HTTP</service_name>
+<service_display_name>Serviço HTTP</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>intelppm.sys</driver_name>
+<address>00000000`042C8000</address>
+<end_address>00000000`042E4000</end_address>
+<size>0x0001c000</size>
+<load_count>1</load_count>
+<index>91</index>
+<file_type>System Driver</file_type>
+<description>Processor Device Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:48</modified_date>
+<created_date>25/07/2012 23:26:48</created_date>
+<filename>C:\Windows\System32\drivers\intelppm.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>intelppm</service_name>
+<service_display_name>@cpu.inf,%IntelPPM.SvcDesc%;Intel Processor Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>kbdclass.sys</driver_name>
+<address>00000000`04D70000</address>
+<end_address>00000000`04D7F000</end_address>
+<size>0x0000f000</size>
+<load_count>1</load_count>
+<index>114</index>
+<file_type>System Driver</file_type>
+<description>Driver de Classe de Teclado</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:00:52</modified_date>
+<created_date>25/07/2012 23:28:48</created_date>
+<filename>C:\Windows\System32\drivers\kbdclass.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>kbdclass</service_name>
+<service_display_name>@keyboard.inf,%kbdclass.SvcDesc%;Keyboard Class Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>kbdhid.sys</driver_name>
+<address>00000000`04D63000</address>
+<end_address>00000000`04D70000</end_address>
+<size>0x0000d000</size>
+<load_count>1</load_count>
+<index>113</index>
+<file_type>Dynamic Link Library</file_type>
+<description>HID Mouse Filter Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:28:49</modified_date>
+<created_date>25/07/2012 23:28:49</created_date>
+<filename>C:\Windows\System32\drivers\kbdhid.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>kbdhid</service_name>
+<service_display_name>@keyboard.inf,%KBDHID.SvcDesc%;Keyboard HID Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>kd.dll</driver_name>
+<address>00000000`97035000</address>
+<end_address>00000000`9703E000</end_address>
+<size>0x00009000</size>
+<load_count>3</load_count>
+<index>2</index>
+<file_type>Communications Driver</file_type>
+<description>Local Kernel Debugger</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\system32\kd.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>kdnic.sys</driver_name>
+<address>00000000`03CF4000</address>
+<end_address>00000000`03CFF000</end_address>
+<size>0x0000b000</size>
+<load_count>1</load_count>
+<index>78</index>
+<file_type>System Driver</file_type>
+<description>Microsoft Kernel Debugger Network Miniport</description>
+<version>6.1.0.0</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft Kernel Debugger Network Adapter (NDIS 6.20 Miniport)</product_name>
+<modified_date>25/07/2012 23:27:41</modified_date>
+<created_date>25/07/2012 23:27:41</created_date>
+<filename>C:\Windows\system32\DRIVERS\kdnic.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>kdnic</service_name>
+<service_display_name>@kdnic.inf,%KdNic.Service.DispName%;Miniporta de Rede de Depuração de Kernel da Microsoft (NDIS 6.20)</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ks.sys</driver_name>
+<address>00000000`044A7000</address>
+<end_address>00000000`044F6000</end_address>
+<size>0x0004f000</size>
+<load_count>4</load_count>
+<index>98</index>
+<file_type>Driver</file_type>
+<description>Kernel CSA Library</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:29:03</modified_date>
+<created_date>25/07/2012 23:29:04</created_date>
+<filename>C:\Windows\System32\drivers\ks.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ksecdd.sys</driver_name>
+<address>00000000`014B6000</address>
+<end_address>00000000`014D1000</end_address>
+<size>0x0001b000</size>
+<load_count>20</load_count>
+<index>34</index>
+<file_type>System Driver</file_type>
+<description>Kernel Security Support Provider Interface</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\System32\Drivers\ksecdd.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>KSecDD</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ksecpkg.sys</driver_name>
+<address>00000000`01670000</address>
+<end_address>00000000`0169F000</end_address>
+<size>0x0002f000</size>
+<load_count>1</load_count>
+<index>39</index>
+<file_type>System Driver</file_type>
+<description>Kernel Security Support Provider Interface Packages</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:57:29</modified_date>
+<created_date>25/07/2012 23:25:36</created_date>
+<filename>C:\Windows\System32\Drivers\ksecpkg.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>KSecPkg</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ksthunk.sys</driver_name>
+<address>00000000`0446D000</address>
+<end_address>00000000`04473000</end_address>
+<size>0x00006000</size>
+<load_count>1</load_count>
+<index>106</index>
+<file_type>Driver</file_type>
+<description>Kernel Streaming WOW Thunk Service</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:58</modified_date>
+<created_date>25/07/2012 23:28:59</created_date>
+<filename>C:\Windows\system32\drivers\ksthunk.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>ksthunk</service_name>
+<service_display_name>Kernel Streaming Thunks</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>lltdio.sys</driver_name>
+<address>00000000`04C28000</address>
+<end_address>00000000`04C3C000</end_address>
+<size>0x00014000</size>
+<load_count>1</load_count>
+<index>125</index>
+<file_type>Network Driver</file_type>
+<description>Link-Layer Topology Mapper I/O Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:24:02</modified_date>
+<created_date>25/07/2012 23:24:03</created_date>
+<filename>C:\Windows\system32\DRIVERS\lltdio.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>lltdio</service_name>
+<service_display_name>Driver de E/S do Mapeador de Descoberta de Topologia de Camada de Link</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>luafv.sys</driver_name>
+<address>00000000`04C00000</address>
+<end_address>00000000`04C28000</end_address>
+<size>0x00028000</size>
+<load_count>1</load_count>
+<index>124</index>
+<file_type>System Driver</file_type>
+<description>Driver do Filtro de Virtualização do Arquivo LUA</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:29:14</modified_date>
+<created_date>25/07/2012 23:29:14</created_date>
+<filename>C:\Windows\system32\drivers\luafv.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>luafv</service_name>
+<service_display_name>Virtualização de arquivo UAC</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mcupdate_GenuineIntel.dll</driver_name>
+<address>00000000`00CC7000</address>
+<end_address>00000000`00D26000</end_address>
+<size>0x0005f000</size>
+<load_count>1</load_count>
+<index>3</index>
+<file_type>Communications Driver</file_type>
+<description>Intel Microcode Update Library</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:59:32</modified_date>
+<created_date>25/07/2012 23:30:13</created_date>
+<filename>C:\Windows\system32\mcupdate_GenuineIntel.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>monitor.sys</driver_name>
+<address>00000000`04DD1000</address>
+<end_address>00000000`04DDF000</end_address>
+<size>0x0000e000</size>
+<load_count>1</load_count>
+<index>121</index>
+<file_type>System Driver</file_type>
+<description>Monitor Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:24:55</modified_date>
+<created_date>25/07/2012 23:24:55</created_date>
+<filename>C:\Windows\system32\DRIVERS\monitor.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>monitor</service_name>
+<service_display_name>@monitor.inf,%Monitor.SVCDESC%;Microsoft Monitor Class Function Driver Service</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mouclass.sys</driver_name>
+<address>00000000`04D8B000</address>
+<end_address>00000000`04D9A000</end_address>
+<size>0x0000f000</size>
+<load_count>1</load_count>
+<index>117</index>
+<file_type>System Driver</file_type>
+<description>Driver de classe modem</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:00:55</modified_date>
+<created_date>25/07/2012 23:28:47</created_date>
+<filename>C:\Windows\System32\drivers\mouclass.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mouclass</service_name>
+<service_display_name>@msmouse.inf,%mouclass.SvcDesc%;Mouse Class Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mouhid.sys</driver_name>
+<address>00000000`04D7F000</address>
+<end_address>00000000`04D8B000</end_address>
+<size>0x0000c000</size>
+<load_count>1</load_count>
+<index>116</index>
+<file_type>Dynamic Link Library</file_type>
+<description>HID Mouse Filter Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:28:47</modified_date>
+<created_date>25/07/2012 23:28:47</created_date>
+<filename>C:\Windows\System32\drivers\mouhid.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mouhid</service_name>
+<service_display_name>@msmouse.inf,%MOUHID.SvcDesc%;Mouse HID Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mountmgr.sys</driver_name>
+<address>00000000`01537000</address>
+<end_address>00000000`01551000</end_address>
+<size>0x0001a000</size>
+<load_count>1</load_count>
+<index>26</index>
+<file_type>System Driver</file_type>
+<description>Gerenciador de Pontos de Montagem</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\System32\drivers\mountmgr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mountmgr</service_name>
+<service_display_name>Gerenciador de Pontos de Montagem</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mpsdrv.sys</driver_name>
+<address>00000000`0A777000</address>
+<end_address>00000000`0A78E000</end_address>
+<size>0x00017000</size>
+<load_count>1</load_count>
+<index>129</index>
+<file_type>System Driver</file_type>
+<description>Microsoft Protection Service Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:39</modified_date>
+<created_date>25/07/2012 23:23:39</created_date>
+<filename>C:\Windows\System32\drivers\mpsdrv.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mpsdrv</service_name>
+<service_display_name>Driver de Autorização do Firewall do Windows</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mrxsmb.sys</driver_name>
+<address>00000000`0A78E000</address>
+<end_address>00000000`0A7F0000</end_address>
+<size>0x00062000</size>
+<load_count>3</load_count>
+<index>130</index>
+<file_type>System Driver</file_type>
+<description>Minirdr SMB do Windows NT</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:23:25</modified_date>
+<created_date>25/07/2012 23:23:26</created_date>
+<filename>C:\Windows\system32\DRIVERS\mrxsmb.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mrxsmb</service_name>
+<service_display_name>Wrapper e Mecanismo Mini-Redirecionador do SMB</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mrxsmb10.sys</driver_name>
+<address>00000000`0A600000</address>
+<end_address>00000000`0A64B000</end_address>
+<size>0x0004b000</size>
+<load_count>1</load_count>
+<index>131</index>
+<file_type>System Driver</file_type>
+<description>Longhorn SMB Downlevel SubRdr</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:06</modified_date>
+<created_date>25/07/2012 23:23:06</created_date>
+<filename>C:\Windows\system32\DRIVERS\mrxsmb10.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mrxsmb10</service_name>
+<service_display_name>Mini-Redirecionador do SMB 1.x</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mrxsmb20.sys</driver_name>
+<address>00000000`013B7000</address>
+<end_address>00000000`013F1000</end_address>
+<size>0x0003a000</size>
+<load_count>1</load_count>
+<index>132</index>
+<file_type>System Driver</file_type>
+<description>Longhorn SMB 2.0 Redirector</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:27:00</modified_date>
+<created_date>25/07/2012 23:27:00</created_date>
+<filename>C:\Windows\system32\DRIVERS\mrxsmb20.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mrxsmb20</service_name>
+<service_display_name>Mini-Redirecionador do SMB 2.0</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Msfs.SYS</driver_name>
+<address>00000000`03EE8000</address>
+<end_address>00000000`03EF4000</end_address>
+<size>0x0000c000</size>
+<load_count>1</load_count>
+<index>58</index>
+<file_type>System Driver</file_type>
+<description>Mailslot driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\Drivers\Msfs.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>msisadrv.sys</driver_name>
+<address>00000000`011E1000</address>
+<end_address>00000000`011EB000</end_address>
+<size>0x0000a000</size>
+<load_count>1</load_count>
+<index>16</index>
+<file_type>System Driver</file_type>
+<description>ISA Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:55</modified_date>
+<created_date>25/07/2012 23:28:02</created_date>
+<filename>C:\Windows\System32\drivers\msisadrv.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>msisadrv</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mslldp.sys</driver_name>
+<address>00000000`09698000</address>
+<end_address>00000000`096AF000</end_address>
+<size>0x00017000</size>
+<load_count>1</load_count>
+<index>140</index>
+<file_type>Network Driver</file_type>
+<description>Driver do Protocolo Microsoft LLDP</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:23:53</modified_date>
+<created_date>25/07/2012 23:23:54</created_date>
+<filename>C:\Windows\system32\DRIVERS\mslldp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>MsLldp</service_name>
+<service_display_name>Protocolo Microsoft LLDP</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>msrpc.sys</driver_name>
+<address>00000000`010E5000</address>
+<end_address>00000000`01148000</end_address>
+<size>0x00063000</size>
+<load_count>12</load_count>
+<index>9</index>
+<file_type>System Driver</file_type>
+<description>Kernel Remote Procedure Call Provider</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\drivers\msrpc.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mssmbios.sys</driver_name>
+<address>00000000`01E91000</address>
+<end_address>00000000`01E9D000</end_address>
+<size>0x0000c000</size>
+<load_count>1</load_count>
+<index>70</index>
+<file_type>System Driver</file_type>
+<description>System Management BIOS Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:59:34</modified_date>
+<created_date>25/07/2012 23:29:20</created_date>
+<filename>C:\Windows\System32\drivers\mssmbios.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>mssmbios</service_name>
+<service_display_name>@mssmbios.inf,%mssmbios_svcdesc%;Microsoft System Management BIOS Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>mup.sys</driver_name>
+<address>00000000`01A3B000</address>
+<end_address>00000000`01A52000</end_address>
+<size>0x00017000</size>
+<load_count>4</load_count>
+<index>46</index>
+<file_type>Network Driver</file_type>
+<description>Multiple UNC Provider Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:59:34</modified_date>
+<created_date>25/07/2012 23:30:01</created_date>
+<filename>C:\Windows\System32\Drivers\mup.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Mup</service_name>
+<service_display_name>MUP</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ndis.sys</driver_name>
+<address>00000000`016DA000</address>
+<end_address>00000000`017D5000</end_address>
+<size>0x000fb000</size>
+<load_count>26</load_count>
+<index>37</index>
+<file_type>Network Driver</file_type>
+<description>Driver NDIS 6.30</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\system32\drivers\ndis.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>NDIS</service_name>
+<service_display_name>Driver do Sistema NDIS</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ndistapi.sys</driver_name>
+<address>00000000`01EDF000</address>
+<end_address>00000000`01EEB000</end_address>
+<size>0x0000c000</size>
+<load_count>2</load_count>
+<index>73</index>
+<file_type>Network Driver</file_type>
+<description>NDIS 3.0 connection wrapper driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:39</modified_date>
+<created_date>25/07/2012 23:28:40</created_date>
+<filename>C:\Windows\system32\DRIVERS\ndistapi.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>NdisTapi</service_name>
+<service_display_name>Driver TAPI NDIS de acesso remoto</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ndiswan.sys</driver_name>
+<address>00000000`01F90000</address>
+<end_address>00000000`01FBF000</end_address>
+<size>0x0002f000</size>
+<load_count>1</load_count>
+<index>74</index>
+<file_type>Network Driver</file_type>
+<description>MS PPP Framing Driver (Strong Encryption)</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:14</modified_date>
+<created_date>25/07/2012 23:23:14</created_date>
+<filename>C:\Windows\system32\DRIVERS\ndiswan.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>NDISWANLEGACY</service_name>
+<service_display_name>Driver WAN NDIS HERDADO de Acesso Remoto</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>NDProxy.SYS</driver_name>
+<address>00000000`04501000</address>
+<end_address>00000000`04515000</end_address>
+<size>0x00014000</size>
+<load_count>1</load_count>
+<index>100</index>
+<file_type>System Driver</file_type>
+<description>NDIS Proxy</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:41</modified_date>
+<created_date>25/07/2012 23:26:42</created_date>
+<filename>C:\Windows\System32\Drivers\NDProxy.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Ndu.sys</driver_name>
+<address>00000000`0A64B000</address>
+<end_address>00000000`0A667000</end_address>
+<size>0x0001c000</size>
+<load_count>1</load_count>
+<index>133</index>
+<file_type>Network Driver</file_type>
+<description>Windows Network Data Usage Monitoring Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:42</modified_date>
+<created_date>25/07/2012 23:23:42</created_date>
+<filename>C:\Windows\system32\drivers\Ndu.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Ndu</service_name>
+<service_display_name>Windows Network Data Usage Monitoring Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>netbios.sys</driver_name>
+<address>00000000`03CBC000</address>
+<end_address>00000000`03CCC000</end_address>
+<size>0x00010000</size>
+<load_count>1</load_count>
+<index>64</index>
+<file_type>Network Driver</file_type>
+<description>NetBIOS interface driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:19</modified_date>
+<created_date>25/07/2012 23:28:20</created_date>
+<filename>C:\Windows\system32\DRIVERS\netbios.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>NetBIOS</service_name>
+<service_display_name>@netnb.inf,%NetBIOS_Desc%;NetBIOS Interface</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>netbt.sys</driver_name>
+<address>00000000`03F24000</address>
+<end_address>00000000`03F7C000</end_address>
+<size>0x00058000</size>
+<load_count>1</load_count>
+<index>61</index>
+<file_type>System Driver</file_type>
+<description>MBT Transport driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:24:28</modified_date>
+<created_date>25/07/2012 23:24:28</created_date>
+<filename>C:\Windows\System32\DRIVERS\netbt.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>NetBT</service_name>
+<service_display_name>NETBT</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>NETIO.SYS</driver_name>
+<address>00000000`01600000</address>
+<end_address>00000000`01670000</end_address>
+<size>0x00070000</size>
+<load_count>26</load_count>
+<index>38</index>
+<file_type>Network Driver</file_type>
+<description>Network I/O Subsystem</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\system32\drivers\NETIO.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Npfs.SYS</driver_name>
+<address>00000000`03ED6000</address>
+<end_address>00000000`03EE8000</end_address>
+<size>0x00012000</size>
+<load_count>1</load_count>
+<index>57</index>
+<file_type>System Driver</file_type>
+<description>NPFS Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\Drivers\Npfs.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>npsvctrig.sys</driver_name>
+<address>00000000`03FEE000</address>
+<end_address>00000000`03FFA000</end_address>
+<size>0x0000c000</size>
+<load_count>1</load_count>
+<index>69</index>
+<file_type>System Driver</file_type>
+<description>Named pipe service triggers</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:27:33</modified_date>
+<created_date>25/07/2012 23:27:33</created_date>
+<filename>C:\Windows\System32\drivers\npsvctrig.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>npsvctrig</service_name>
+<service_display_name>@npsvctrig.inf,%NPSVCTRIG.SvcDisplayName%;Named pipe service trigger provider</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>nsiproxy.sys</driver_name>
+<address>00000000`03CE6000</address>
+<end_address>00000000`03CF4000</end_address>
+<size>0x0000e000</size>
+<load_count>1</load_count>
+<index>68</index>
+<file_type>Network Driver</file_type>
+<description>NSI Proxy</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\system32\drivers\nsiproxy.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>nsiproxy</service_name>
+<service_display_name>NSI Proxy Service Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Ntfs.sys</driver_name>
+<address>00000000`00E0F000</address>
+<end_address>00000000`00FF2000</end_address>
+<size>0x001e3000</size>
+<load_count>1</load_count>
+<index>33</index>
+<file_type>System Driver</file_type>
+<description>Driver do Sistema de Arquivos NT</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\Drivers\Ntfs.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ntoskrnl.exe</driver_name>
+<address>00000000`97A83000</address>
+<end_address>00000000`981CB000</end_address>
+<size>0x00748000</size>
+<load_count>102</load_count>
+<index>0</index>
+<file_type>Application</file_type>
+<description>NT Kernel &amp; System</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:42</modified_date>
+<created_date>26/07/2012 02:26:42</created_date>
+<filename>C:\Windows\system32\ntoskrnl.exe</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Null.SYS</driver_name>
+<address>00000000`01FC1000</address>
+<end_address>00000000`01FCA000</end_address>
+<size>0x00009000</size>
+<load_count>1</load_count>
+<index>50</index>
+<file_type>System Driver</file_type>
+<description>NULL Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\Drivers\Null.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>nvhda64v.sys</driver_name>
+<address>00000000`0459D000</address>
+<end_address>00000000`045D2000</end_address>
+<size>0x00035000</size>
+<load_count>1</load_count>
+<index>103</index>
+<file_type>Sound Driver</file_type>
+<description>NVIDIA HDMI Audio Driver</description>
+<version>1.3.34.27</version>
+<company>NVIDIA Corporation</company>
+<product_name>NVIDIA HDMI Audio Driver</product_name>
+<modified_date>03/08/2017 16:00:04</modified_date>
+<created_date>03/08/2017 16:00:04</created_date>
+<filename>C:\Windows\system32\drivers\nvhda64v.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>NVHDA</service_name>
+<service_display_name>@oem4.inf,%NVHDA.SvcDesc%;Service for NVIDIA High Definition Audio Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>nvlddmkm.sys</driver_name>
+<address>00000000`05A55000</address>
+<end_address>00000000`06970000</end_address>
+<size>0x00f1b000</size>
+<load_count>1</load_count>
+<index>80</index>
+<file_type>Display Driver</file_type>
+<description>NVIDIA Windows Kernel Mode Driver, Version 384.94</description>
+<version>22.21.13.8494</version>
+<company>NVIDIA Corporation</company>
+<product_name>NVIDIA Windows Kernel Mode Driver, Version 384.94</product_name>
+<modified_date>03/08/2017 16:00:40</modified_date>
+<created_date>03/08/2017 16:00:40</created_date>
+<filename>C:\Windows\system32\DRIVERS\nvlddmkm.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>nvlddmkm</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>pacer.sys</driver_name>
+<address>00000000`03C92000</address>
+<end_address>00000000`03CBC000</end_address>
+<size>0x0002a000</size>
+<load_count>1</load_count>
+<index>63</index>
+<file_type>Network Driver</file_type>
+<description>Agendador de pacotes de serviço</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:23:06</modified_date>
+<created_date>25/07/2012 23:23:06</created_date>
+<filename>C:\Windows\system32\DRIVERS\pacer.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Psched</service_name>
+<service_display_name>Agendador de pacotes de serviço</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>parport.sys</driver_name>
+<address>00000000`0427B000</address>
+<end_address>00000000`04299000</end_address>
+<size>0x0001e000</size>
+<load_count>1</load_count>
+<index>87</index>
+<file_type>System Driver</file_type>
+<description>Driver de porta paralela</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:29:53</modified_date>
+<created_date>25/07/2012 23:29:53</created_date>
+<filename>C:\Windows\System32\drivers\parport.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Parport</service_name>
+<service_display_name>@msports.inf,%Parport.SVCDESC%;Driver de porta paralela</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>partmgr.sys</driver_name>
+<address>00000000`0133C000</address>
+<end_address>00000000`01356000</end_address>
+<size>0x0001a000</size>
+<load_count>1</load_count>
+<index>22</index>
+<file_type>System Driver</file_type>
+<description>Partition Management Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\System32\drivers\partmgr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>partmgr</service_name>
+<service_display_name>Gerenciador de Partições</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>pci.sys</driver_name>
+<address>00000000`0121C000</address>
+<end_address>00000000`01259000</end_address>
+<size>0x0003d000</size>
+<load_count>1</load_count>
+<index>17</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Enumerador NT Plug and Play PCI</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:00:55</modified_date>
+<created_date>25/07/2012 23:27:44</created_date>
+<filename>C:\Windows\System32\drivers\pci.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>pci</service_name>
+<service_display_name>@machine.inf,%pci_svcdesc%;PCI Bus Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>pcw.sys</driver_name>
+<address>00000000`015D6000</address>
+<end_address>00000000`015E7000</end_address>
+<size>0x00011000</size>
+<load_count>1</load_count>
+<index>35</index>
+<file_type>Installable Driver</file_type>
+<description>Performance Counters for Windows Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:58:00</modified_date>
+<created_date>25/07/2012 23:28:44</created_date>
+<filename>C:\Windows\System32\drivers\pcw.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>pcw</service_name>
+<service_display_name>Performance Counters for Windows Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>pdc.sys</driver_name>
+<address>00000000`01325000</address>
+<end_address>00000000`0133C000</end_address>
+<size>0x00017000</size>
+<load_count>1</load_count>
+<index>21</index>
+<file_type>System Driver</file_type>
+<description>Power Dependency Coordinator Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:58:00</modified_date>
+<created_date>25/07/2012 23:28:10</created_date>
+<filename>C:\Windows\system32\drivers\pdc.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>pdc</service_name>
+<service_display_name>PDC</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>peauth.sys</driver_name>
+<address>00000000`09413000</address>
+<end_address>00000000`094DE000</end_address>
+<size>0x000cb000</size>
+<load_count>1</load_count>
+<index>134</index>
+<file_type>System Driver</file_type>
+<description>Protected Environment Authentication and Authorization Export Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:24:25</modified_date>
+<created_date>25/07/2012 23:24:28</created_date>
+<filename>C:\Windows\system32\drivers\peauth.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>PEAUTH</service_name>
+<service_display_name>PEAUTH</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>portcls.sys</driver_name>
+<address>00000000`04400000</address>
+<end_address>00000000`0444B000</end_address>
+<size>0x0004b000</size>
+<load_count>2</load_count>
+<index>104</index>
+<file_type>Sound Driver</file_type>
+<description>Port Class (Class Driver for Port/Miniport Devices)</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:25:43</modified_date>
+<created_date>25/07/2012 23:25:43</created_date>
+<filename>C:\Windows\system32\drivers\portcls.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>PSHED.dll</driver_name>
+<address>00000000`00DA5000</address>
+<end_address>00000000`00DBA000</end_address>
+<size>0x00015000</size>
+<load_count>3</load_count>
+<index>6</index>
+<file_type>System Driver</file_type>
+<description>Driver de Erro de Hardware Específico da Plataforma</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:45</modified_date>
+<created_date>26/07/2012 02:26:45</created_date>
+<filename>C:\Windows\system32\PSHED.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rasl2tp.sys</driver_name>
+<address>00000000`017D5000</address>
+<end_address>00000000`017FA000</end_address>
+<size>0x00025000</size>
+<load_count>1</load_count>
+<index>95</index>
+<file_type>Network Driver</file_type>
+<description>RAS L2TP mini-port/call-manager driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:17</modified_date>
+<created_date>25/07/2012 23:23:17</created_date>
+<filename>C:\Windows\system32\DRIVERS\rasl2tp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Rasl2tp</service_name>
+<service_display_name>Miniporta WAN (L2TP)</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>raspppoe.sys</driver_name>
+<address>00000000`043E5000</address>
+<end_address>00000000`043FF000</end_address>
+<size>0x0001a000</size>
+<load_count>1</load_count>
+<index>96</index>
+<file_type>Network Driver</file_type>
+<description>RAS PPPoE mini-port/call-manager driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:24:56</modified_date>
+<created_date>25/07/2012 23:24:56</created_date>
+<filename>C:\Windows\system32\DRIVERS\raspppoe.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>RasPppoe</service_name>
+<service_display_name>Driver PPPOE de acesso remoto</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>raspptp.sys</driver_name>
+<address>00000000`04398000</address>
+<end_address>00000000`043B9000</end_address>
+<size>0x00021000</size>
+<load_count>1</load_count>
+<index>93</index>
+<file_type>Network Driver</file_type>
+<description>Peer-to-Peer Tunneling Protocol</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:14</modified_date>
+<created_date>25/07/2012 23:23:14</created_date>
+<filename>C:\Windows\system32\DRIVERS\raspptp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>PptpMiniport</service_name>
+<service_display_name>Miniporta WAN (PPTP)</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rassstp.sys</driver_name>
+<address>00000000`01FDF000</address>
+<end_address>00000000`01FFD000</end_address>
+<size>0x0001e000</size>
+<load_count>1</load_count>
+<index>75</index>
+<file_type>Network Driver</file_type>
+<description>RAS SSTP Miniport Call Manager</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:59</modified_date>
+<created_date>25/07/2012 23:23:59</created_date>
+<filename>C:\Windows\system32\DRIVERS\rassstp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>RasSstp</service_name>
+<service_display_name>Miniporta WAN (SSTP)</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rdbss.sys</driver_name>
+<address>00000000`03F7C000</address>
+<end_address>00000000`03FEE000</end_address>
+<size>0x00072000</size>
+<load_count>6</load_count>
+<index>65</index>
+<file_type>System Driver</file_type>
+<description>Driver do Subsistema de Buffer da Unidade Redirecionado</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:26:00</modified_date>
+<created_date>25/07/2012 23:26:00</created_date>
+<filename>C:\Windows\system32\DRIVERS\rdbss.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>rdbss</service_name>
+<service_display_name>Subsistema de Buffer Redirecionado</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rdpbus.sys</driver_name>
+<address>00000000`044F6000</address>
+<end_address>00000000`04501000</end_address>
+<size>0x0000b000</size>
+<load_count>1</load_count>
+<index>99</index>
+<file_type>Driver</file_type>
+<description>Microsoft RDP Bus Device driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:28:19</modified_date>
+<created_date>25/07/2012 23:28:19</created_date>
+<filename>C:\Windows\System32\drivers\rdpbus.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>rdpbus</service_name>
+<service_display_name>@rdpbus.inf,%rdpbus_svcdesc%;Remote Desktop Device Redirector Bus Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rdpdr.sys</driver_name>
+<address>00000000`09709000</address>
+<end_address>00000000`0973A000</end_address>
+<size>0x00031000</size>
+<load_count>1</load_count>
+<index>144</index>
+<file_type>Driver</file_type>
+<description>Microsoft RDP Device redirector</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:25:18</modified_date>
+<created_date>25/07/2012 23:25:19</created_date>
+<filename>C:\Windows\System32\drivers\rdpdr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>RDPDR</service_name>
+<service_display_name>Remote Desktop Device Redirector Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rdpvideominiport.sys</driver_name>
+<address>00000000`096C8000</address>
+<end_address>00000000`096D3000</end_address>
+<size>0x0000b000</size>
+<load_count>1</load_count>
+<index>142</index>
+<file_type>Driver</file_type>
+<description>Microsoft RDP Video Miniport driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 00:17:38</modified_date>
+<created_date>25/07/2012 23:28:31</created_date>
+<filename>C:\Windows\System32\drivers\rdpvideominiport.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>RdpVideoMiniport</service_name>
+<service_display_name>Remote Desktop Video Miniport Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rdyboost.sys</driver_name>
+<address>00000000`01A00000</address>
+<end_address>00000000`01A3B000</end_address>
+<size>0x0003b000</size>
+<load_count>1</load_count>
+<index>45</index>
+<file_type>System Driver</file_type>
+<description>ReadyBoost Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:59:35</modified_date>
+<created_date>25/07/2012 23:28:35</created_date>
+<filename>C:\Windows\System32\drivers\rdyboost.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>rdyboost</service_name>
+<service_display_name>ReadyBoost</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>rspndr.sys</driver_name>
+<address>00000000`04DDF000</address>
+<end_address>00000000`04DF7000</end_address>
+<size>0x00018000</size>
+<load_count>1</load_count>
+<index>126</index>
+<file_type>Network Driver</file_type>
+<description>Link-Layer Topology Responder Driver for NDIS 6</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:24:06</modified_date>
+<created_date>25/07/2012 23:24:06</created_date>
+<filename>C:\Windows\system32\DRIVERS\rspndr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>rspndr</service_name>
+<service_display_name>Respondente de Descoberta de Topologia de Camada de Link</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Rt630x64.sys</driver_name>
+<address>00000000`042EE000</address>
+<end_address>00000000`04382000</end_address>
+<size>0x00094000</size>
+<load_count>1</load_count>
+<index>84</index>
+<file_type>Network Driver</file_type>
+<description>Realtek 8101E/8168/8169 NDIS 6.30 64-bit Driver</description>
+<version>8.1.1019.2011</version>
+<company>Realtek</company>
+<product_name>Realtek 8136/8168/8169 PCI/PCIe Adapters</product_name>
+<modified_date>02/06/2012 11:31:56</modified_date>
+<created_date>02/06/2012 11:31:56</created_date>
+<filename>C:\Windows\system32\DRIVERS\Rt630x64.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>RTL8168</service_name>
+<service_display_name>@netrt630x64.inf,%rtl8168.Service.DispName%;Realtek 8168 NT Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>secdrv.SYS</driver_name>
+<address>00000000`094DE000</address>
+<end_address>00000000`094E9000</end_address>
+<size>0x0000b000</size>
+<load_count>1</load_count>
+<index>135</index>
+<file_type>System Driver</file_type>
+<description>Macrovision SECURITY Driver</description>
+<version>4.3.86.0</version>
+<company>Macrovision Corporation, Macrovision Europe Limited, and Macrovision Japan and Asia K.K.</company>
+<product_name>Macrovision SECURITY Driver</product_name>
+<modified_date>26/07/2012 05:11:43</modified_date>
+<created_date>26/07/2012 05:13:07</created_date>
+<filename>C:\Windows\System32\Drivers\secdrv.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>serenum.sys</driver_name>
+<address>00000000`042B1000</address>
+<end_address>00000000`042BE000</end_address>
+<size>0x0000d000</size>
+<load_count>1</load_count>
+<index>89</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Serial Port Enumerator</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:30:14</modified_date>
+<created_date>25/07/2012 23:30:14</created_date>
+<filename>C:\Windows\System32\drivers\serenum.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Serenum</service_name>
+<service_display_name>@msports.inf,%Serenum.SVCDESC%;Serenum Filter Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>serial.sys</driver_name>
+<address>00000000`04299000</address>
+<end_address>00000000`042B1000</end_address>
+<size>0x00018000</size>
+<load_count>1</load_count>
+<index>88</index>
+<file_type>System Driver</file_type>
+<description>Driver de dispositivo serial</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:30:01</modified_date>
+<created_date>25/07/2012 23:30:01</created_date>
+<filename>C:\Windows\System32\drivers\serial.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Serial</service_name>
+<service_display_name>@msports.inf,%Serial.SVCDESC%;Serial port driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>spaceport.sys</driver_name>
+<address>00000000`01356000</address>
+<end_address>00000000`0139F000</end_address>
+<size>0x00049000</size>
+<load_count>1</load_count>
+<index>23</index>
+<file_type>System Driver</file_type>
+<description>Storage Spaces Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:55</modified_date>
+<created_date>25/07/2012 23:28:36</created_date>
+<filename>C:\Windows\System32\drivers\spaceport.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>spaceport</service_name>
+<service_display_name>@spaceport.inf,%Spaceport_ServiceDesc%;Storage Spaces Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>srv.sys</driver_name>
+<address>00000000`0960B000</address>
+<end_address>00000000`09698000</end_address>
+<size>0x0008d000</size>
+<load_count>1</load_count>
+<index>139</index>
+<file_type>Network Driver</file_type>
+<description>Server driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:25:30</modified_date>
+<created_date>25/07/2012 23:25:31</created_date>
+<filename>C:\Windows\System32\DRIVERS\srv.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>srv</service_name>
+<service_display_name>Driver SMB 1.xxx do Servidor</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>srv2.sys</driver_name>
+<address>00000000`0953F000</address>
+<end_address>00000000`095DF000</end_address>
+<size>0x000a0000</size>
+<load_count>1</load_count>
+<index>138</index>
+<file_type>Network Driver</file_type>
+<description>Driver de Servidor Smb 2.0</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:25:33</modified_date>
+<created_date>25/07/2012 23:25:33</created_date>
+<filename>C:\Windows\System32\DRIVERS\srv2.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>srv2</service_name>
+<service_display_name>Driver SMB 2.xxx do Servidor</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>srvnet.sys</driver_name>
+<address>00000000`094E9000</address>
+<end_address>00000000`0952D000</end_address>
+<size>0x00044000</size>
+<load_count>3</load_count>
+<index>136</index>
+<file_type>Network Driver</file_type>
+<description>Server Network driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:19</modified_date>
+<created_date>25/07/2012 23:23:19</created_date>
+<filename>C:\Windows\System32\DRIVERS\srvnet.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>srvnet</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>storahci.sys</driver_name>
+<address>00000000`01551000</address>
+<end_address>00000000`01567000</end_address>
+<size>0x00016000</size>
+<load_count>1</load_count>
+<index>27</index>
+<file_type>System Driver</file_type>
+<description>MS AHCI Storport Miniport Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:55</modified_date>
+<created_date>25/07/2012 23:30:36</created_date>
+<filename>C:\Windows\System32\drivers\storahci.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>storahci</service_name>
+<service_display_name>@mshdc.inf,%storahci_ServiceDescription%;Microsoft Standard SATA AHCI Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>storport.sys</driver_name>
+<address>00000000`01567000</address>
+<end_address>00000000`015BC000</end_address>
+<size>0x00055000</size>
+<load_count>1</load_count>
+<index>28</index>
+<file_type>System Driver</file_type>
+<description>Microsoft Storage Port Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:57</modified_date>
+<created_date>25/07/2012 23:28:35</created_date>
+<filename>C:\Windows\System32\drivers\storport.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>swenum.sys</driver_name>
+<address>00000000`05A38000</address>
+<end_address>00000000`05A3A000</end_address>
+<size>0x00002000</size>
+<load_count>1</load_count>
+<index>97</index>
+<file_type>Driver</file_type>
+<description>Plug and Play Software Device Enumerator</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:57</modified_date>
+<created_date>25/07/2012 23:28:53</created_date>
+<filename>C:\Windows\System32\drivers\swenum.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>swenum</service_name>
+<service_display_name>@swenum.inf,%SWENUM.SVCDESC%;Software Bus Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>tcpip.sys</driver_name>
+<address>00000000`01A64000</address>
+<end_address>00000000`01C9A000</end_address>
+<size>0x00236000</size>
+<load_count>1</load_count>
+<index>40</index>
+<file_type>Network Driver</file_type>
+<description>Driver TCP/IP</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\System32\drivers\tcpip.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>TCPIP6</service_name>
+<service_display_name>@netip6.inf,%MS_TCPIP6.TCPIP6.ServiceDescription%;Microsoft IPv6 Protocol Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>tcpipreg.sys</driver_name>
+<address>00000000`0952D000</address>
+<end_address>00000000`0953F000</end_address>
+<size>0x00012000</size>
+<load_count>1</load_count>
+<index>137</index>
+<file_type>Application</file_type>
+<description>TCP/IP Registry Compatibility Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:13</modified_date>
+<created_date>25/07/2012 23:23:14</created_date>
+<filename>C:\Windows\System32\drivers\tcpipreg.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>tcpipreg</service_name>
+<service_display_name>TCP/IP Registry Compatibility</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>TDI.SYS</driver_name>
+<address>00000000`03F16000</address>
+<end_address>00000000`03F24000</end_address>
+<size>0x0000e000</size>
+<load_count>7</load_count>
+<index>60</index>
+<file_type>Network Driver</file_type>
+<description>TDI Wrapper</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\system32\DRIVERS\TDI.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>tdx.sys</driver_name>
+<address>00000000`03EF4000</address>
+<end_address>00000000`03F16000</end_address>
+<size>0x00022000</size>
+<load_count>1</load_count>
+<index>59</index>
+<file_type>Network Driver</file_type>
+<description>TDI Translation Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:47</modified_date>
+<created_date>26/07/2012 02:26:47</created_date>
+<filename>C:\Windows\system32\DRIVERS\tdx.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>tdx</service_name>
+<service_display_name>Driver de Suporte a TDI Herdado de NetIO</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>tm.sys</driver_name>
+<address>00000000`00D82000</address>
+<end_address>00000000`00DA5000</end_address>
+<size>0x00023000</size>
+<load_count>1</load_count>
+<index>5</index>
+<file_type>System Driver</file_type>
+<description>Kernel Transaction Manager Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:57:09</modified_date>
+<created_date>25/07/2012 23:29:01</created_date>
+<filename>C:\Windows\System32\drivers\tm.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>tpm.sys</driver_name>
+<address>00000000`012E5000</address>
+<end_address>00000000`0130D000</end_address>
+<size>0x00028000</size>
+<load_count>1</load_count>
+<index>19</index>
+<file_type>System Driver</file_type>
+<description>Driver de Dispositivo TPM</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 01:59:35</modified_date>
+<created_date>25/07/2012 23:25:28</created_date>
+<filename>C:\Windows\system32\drivers\tpm.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>TPM</service_name>
+<service_display_name>@tpm.inf,%TPM%;TPM</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>TSDDD.dll</driver_name>
+<address>00000000`007AB000</address>
+<end_address>00000000`007B4000</end_address>
+<size>0x00009000</size>
+<load_count>1</load_count>
+<index>122</index>
+<file_type>Display Driver</file_type>
+<description>Framebuffer Display Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:30:26</modified_date>
+<created_date>25/07/2012 23:30:27</created_date>
+<filename>C:\Windows\System32\TSDDD.dll</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>tunnel.sys</driver_name>
+<address>00000000`043B9000</address>
+<end_address>00000000`043E5000</end_address>
+<size>0x0002c000</size>
+<load_count>1</load_count>
+<index>94</index>
+<file_type>Network Driver</file_type>
+<description>Driver de Interface de Túnel Microsoft</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:23:05</modified_date>
+<created_date>25/07/2012 23:23:05</created_date>
+<filename>C:\Windows\system32\DRIVERS\tunnel.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>tunnel</service_name>
+<service_display_name>@nettun.inf,%TUNNEL.Service.DisplayName%;Driver do Adaptador de Miniporta de Túnel da Microsoft</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>ucx01000.sys</driver_name>
+<address>00000000`05A00000</address>
+<end_address>00000000`05A38000</end_address>
+<size>0x00038000</size>
+<load_count>1</load_count>
+<index>83</index>
+<file_type>System Driver</file_type>
+<description>USB Controller Extension</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:26:09</created_date>
+<filename>C:\Windows\System32\drivers\ucx01000.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>UCX01000</service_name>
+<service_display_name>USB Controller Extension</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>umbus.sys</driver_name>
+<address>00000000`01A52000</address>
+<end_address>00000000`01A64000</end_address>
+<size>0x00012000</size>
+<load_count>1</load_count>
+<index>79</index>
+<file_type>Dynamic Link Library</file_type>
+<description>User-Mode Bus Enumerator</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:27:39</modified_date>
+<created_date>25/07/2012 23:27:39</created_date>
+<filename>C:\Windows\System32\drivers\umbus.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>umbus</service_name>
+<service_display_name>@umbus.inf,%umbus.SVCDESC%;UMBus Enumerator Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>usbccgp.sys</driver_name>
+<address>00000000`04D10000</address>
+<end_address>00000000`04D33000</end_address>
+<size>0x00023000</size>
+<load_count>1</load_count>
+<index>109</index>
+<file_type>Dynamic Link Library</file_type>
+<description>USB Common Class Generic Parent Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:27:07</modified_date>
+<created_date>25/07/2012 23:27:07</created_date>
+<filename>C:\Windows\System32\drivers\usbccgp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>usbccgp</service_name>
+<service_display_name>@usb.inf,%GenericParent.SvcDesc%;Microsoft USB Generic Parent Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>USBD.SYS</driver_name>
+<address>00000000`04592000</address>
+<end_address>00000000`0459D000</end_address>
+<size>0x0000b000</size>
+<load_count>4</load_count>
+<index>102</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Universal Serial Bus Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:30:14</created_date>
+<filename>C:\Windows\System32\drivers\USBD.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>usbehci.sys</driver_name>
+<address>00000000`04382000</address>
+<end_address>00000000`04398000</end_address>
+<size>0x00016000</size>
+<load_count>1</load_count>
+<index>85</index>
+<file_type>Dynamic Link Library</file_type>
+<description>EHCI eUSB Miniport Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:28:49</created_date>
+<filename>C:\Windows\System32\drivers\usbehci.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>usbehci</service_name>
+<service_display_name>@usbport.inf,%EHCIMP.SvcDesc%;Microsoft USB 2.0 Enhanced Host Controller Miniport Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>usbhub.sys</driver_name>
+<address>00000000`04515000</address>
+<end_address>00000000`04592000</end_address>
+<size>0x0007d000</size>
+<load_count>1</load_count>
+<index>101</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Default Hub Driver for USB</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:28:35</created_date>
+<filename>C:\Windows\System32\drivers\usbhub.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>usbhub</service_name>
+<service_display_name>@usbport.inf,%ROOTHUB.SvcDesc%;Microsoft USB Standard Hub Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>UsbHub3.sys</driver_name>
+<address>00000000`04C45000</address>
+<end_address>00000000`04CB8000</end_address>
+<size>0x00073000</size>
+<load_count>1</load_count>
+<index>107</index>
+<file_type>System Driver</file_type>
+<description>USB3 HUB Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:25:40</created_date>
+<filename>C:\Windows\System32\drivers\UsbHub3.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>USBHUB3</service_name>
+<service_display_name>@usbhub3.inf,%UsbHub3.SVCDESC%;SuperSpeed Hub</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>USBPORT.SYS</driver_name>
+<address>00000000`04200000</address>
+<end_address>00000000`0427B000</end_address>
+<size>0x0007b000</size>
+<load_count>1</load_count>
+<index>86</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Driver de Porta USB 1.1 e 2.0</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:29:07</created_date>
+<filename>C:\Windows\System32\drivers\USBPORT.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>USBXHCI.SYS</driver_name>
+<address>00000000`06986000</address>
+<end_address>00000000`069DD000</end_address>
+<size>0x00057000</size>
+<load_count>1</load_count>
+<index>82</index>
+<file_type>System Driver</file_type>
+<description>USB XHCI Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:00:58</modified_date>
+<created_date>25/07/2012 23:25:47</created_date>
+<filename>C:\Windows\System32\drivers\USBXHCI.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name>USBXHCI</service_name>
+<service_display_name>@usbxhci.inf,%PCI\CC_0C0330.DeviceDesc%;USB xHCI Compliant Host Controller</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>vdrvroot.sys</driver_name>
+<address>00000000`01318000</address>
+<end_address>00000000`01325000</end_address>
+<size>0x0000d000</size>
+<load_count>1</load_count>
+<index>20</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Enumerador Raiz de Unidade Virtual</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 01:53:15</modified_date>
+<created_date>25/07/2012 23:27:30</created_date>
+<filename>C:\Windows\System32\drivers\vdrvroot.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>vdrvroot</service_name>
+<service_display_name>@vdrvroot.inf,%vdrvroot_svcdesc%;Microsoft Virtual Drive Enumerator</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>volmgr.sys</driver_name>
+<address>00000000`0139F000</address>
+<end_address>00000000`013B7000</end_address>
+<size>0x00018000</size>
+<load_count>1</load_count>
+<index>24</index>
+<file_type>System Driver</file_type>
+<description>Volume Manager Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:57:09</modified_date>
+<created_date>25/07/2012 23:29:22</created_date>
+<filename>C:\Windows\System32\drivers\volmgr.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>volmgr</service_name>
+<service_display_name>@volmgr.inf,%volmgr_svcdesc%;Volume Manager Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>volmgrx.sys</driver_name>
+<address>00000000`014D7000</address>
+<end_address>00000000`01537000</end_address>
+<size>0x00060000</size>
+<load_count>1</load_count>
+<index>25</index>
+<file_type>System Driver</file_type>
+<description>Driver de Extensão do Gerenciador de Volumes</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 01:57:09</modified_date>
+<created_date>25/07/2012 23:30:01</created_date>
+<filename>C:\Windows\System32\drivers\volmgrx.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>volmgrx</service_name>
+<service_display_name>Gerenciador de Volume Dinâmico</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>volsnap.sys</driver_name>
+<address>00000000`01D93000</address>
+<end_address>00000000`01DE8000</end_address>
+<size>0x00055000</size>
+<load_count>1</load_count>
+<index>44</index>
+<file_type>System Driver</file_type>
+<description>Driver de cópia de sombra de volume</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 01:57:09</modified_date>
+<created_date>25/07/2012 23:30:27</created_date>
+<filename>C:\Windows\System32\drivers\volsnap.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>volsnap</service_name>
+<service_display_name>@volume.inf,%VolumeClassName%;Storage volumes</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>wanarp.sys</driver_name>
+<address>00000000`03CCC000</address>
+<end_address>00000000`03CE6000</end_address>
+<size>0x0001a000</size>
+<load_count>1</load_count>
+<index>67</index>
+<file_type>Network Driver</file_type>
+<description>MS Remote Access and Routing ARP Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:23:07</modified_date>
+<created_date>25/07/2012 23:23:07</created_date>
+<filename>C:\Windows\system32\DRIVERS\wanarp.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Wanarpv6</service_name>
+<service_display_name>Driver ARP IPv6 de Acesso Remoto</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>watchdog.sys</driver_name>
+<address>00000000`03E66000</address>
+<end_address>00000000`03E77000</end_address>
+<size>0x00011000</size>
+<load_count>6</load_count>
+<index>54</index>
+<file_type>Dynamic Link Library</file_type>
+<description>Watchdog Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:29:06</modified_date>
+<created_date>25/07/2012 23:29:06</created_date>
+<filename>C:\Windows\System32\drivers\watchdog.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>Wdf01000.sys</driver_name>
+<address>00000000`01000000</address>
+<end_address>00000000`010C2000</end_address>
+<size>0x000c2000</size>
+<load_count>1</load_count>
+<index>10</index>
+<file_type>System Driver</file_type>
+<description>Tempo de Execução da Estrutura de Driver em Modo Kernel</description>
+<version>1.11.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema Operacional Microsoft® Windows®</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\system32\drivers\Wdf01000.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>Wdf01000</service_name>
+<service_display_name>Serviço de Estruturas de Driver em Modo Kernel</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>WdFilter.sys</driver_name>
+<address>00000000`01474000</address>
+<end_address>00000000`014B6000</end_address>
+<size>0x00042000</size>
+<load_count>1</load_count>
+<index>32</index>
+<file_type>Driver</file_type>
+<description>Microsoft antimalware file system filter driver</description>
+<version>4.0.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:44:30</modified_date>
+<created_date>25/07/2012 23:29:26</created_date>
+<filename>C:\Windows\system32\drivers\WdFilter.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>WdFilter</service_name>
+<service_display_name>Driver de Minifiltro do Windows Defender</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>WDFLDR.SYS</driver_name>
+<address>00000000`010C2000</address>
+<end_address>00000000`010D2000</end_address>
+<size>0x00010000</size>
+<load_count>17</load_count>
+<index>11</index>
+<file_type>System Driver</file_type>
+<description>Kernel Mode Driver Framework Loader</description>
+<version>1.11.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\system32\drivers\WDFLDR.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>wfplwfs.sys</driver_name>
+<address>00000000`01D02000</address>
+<end_address>00000000`01D1D000</end_address>
+<size>0x0001b000</size>
+<load_count>1</load_count>
+<index>42</index>
+<file_type>Network Driver</file_type>
+<description>WFP NDIS 6.30 Lightweight Filter Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 01:54:34</modified_date>
+<created_date>25/07/2012 23:23:59</created_date>
+<filename>C:\Windows\system32\DRIVERS\wfplwfs.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>WFPLWFS</service_name>
+<service_display_name>Microsoft Windows Filtering Platform</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>win32k.sys</driver_name>
+<address>00000000`0015C000</address>
+<end_address>00000000`00551000</end_address>
+<size>0x003f5000</size>
+<load_count>4</load_count>
+<index>115</index>
+<file_type>System Driver</file_type>
+<description>Driver Win32 multiusuário</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Sistema operacional Microsoft® Windows®</product_name>
+<modified_date>25/07/2012 23:27:21</modified_date>
+<created_date>25/07/2012 23:27:23</created_date>
+<filename>C:\Windows\System32\win32k.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>wmiacpi.sys</driver_name>
+<address>00000000`042BE000</address>
+<end_address>00000000`042C8000</end_address>
+<size>0x0000a000</size>
+<load_count>1</load_count>
+<index>90</index>
+<file_type>System Driver</file_type>
+<description>Windows Management Interface for ACPI</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:29:53</modified_date>
+<created_date>25/07/2012 23:29:53</created_date>
+<filename>C:\Windows\System32\drivers\wmiacpi.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>WmiAcpi</service_name>
+<service_display_name>@wmiacpi.inf,%WMIMAP.SvcDesc%;Microsoft Windows Management Interface for ACPI</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>WMILIB.SYS</driver_name>
+<address>00000000`011D7000</address>
+<end_address>00000000`011E1000</end_address>
+<size>0x0000a000</size>
+<load_count>21</load_count>
+<index>15</index>
+<file_type>System Driver</file_type>
+<description>WMILIB WMI support library Dll</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\drivers\WMILIB.SYS</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>WppRecorder.sys</driver_name>
+<address>00000000`0115F000</address>
+<end_address>00000000`0116A000</end_address>
+<size>0x0000b000</size>
+<load_count>12</load_count>
+<index>13</index>
+<file_type>System Driver</file_type>
+<description>WPP Trace Recorder</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>26/07/2012 02:26:46</modified_date>
+<created_date>26/07/2012 02:26:46</created_date>
+<filename>C:\Windows\System32\Drivers\WppRecorder.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name></service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>WudfPf.sys</driver_name>
+<address>00000000`096AF000</address>
+<end_address>00000000`096C8000</end_address>
+<size>0x00019000</size>
+<load_count>1</load_count>
+<index>141</index>
+<file_type>System Driver</file_type>
+<description>Windows Driver Foundation - User-mode Driver Framework Platform Driver</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:45</modified_date>
+<created_date>25/07/2012 23:26:45</created_date>
+<filename>C:\Windows\system32\drivers\WudfPf.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>WudfPf</service_name>
+<service_display_name>User Mode Driver Frameworks Platform Driver</service_display_name>
+<digital_signature></digital_signature>
+</item>
+<item>
+<driver_name>WUDFRd.sys</driver_name>
+<address>00000000`096D3000</address>
+<end_address>00000000`09709000</end_address>
+<size>0x00036000</size>
+<load_count>1</load_count>
+<index>143</index>
+<file_type>System Driver</file_type>
+<description>Windows Driver Foundation - User-mode Driver Framework Reflector</description>
+<version>6.2.9200.16384</version>
+<company>Microsoft Corporation</company>
+<product_name>Microsoft® Windows® Operating System</product_name>
+<modified_date>25/07/2012 23:26:06</modified_date>
+<created_date>25/07/2012 23:26:06</created_date>
+<filename>C:\Windows\system32\DRIVERS\WUDFRd.sys</filename>
+<file_attributes>A</file_attributes>
+<service_name>WUDFWpdFs</service_name>
+<service_display_name></service_display_name>
+<digital_signature></digital_signature>
+</item>
+</drivers_list>
