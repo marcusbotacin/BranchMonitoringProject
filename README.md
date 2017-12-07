@@ -41,6 +41,7 @@ The repository is organized as follows:
 * **BranchMonitor.PMI**: The monitoring driver (PMI handler).
 * **DumpDLL**: A tool to ease introspection headers generation.
 * **Kernel**: Kernel introspection modules.
+* **Misbehavior.Detection**: A profiling tool to detect application misbehavior.
 * **Transparency.Tests**: Tools to attest BranchMonitor's transparency.
 * **ROP**: CFI verification tools to be used on execution traces.
 * **Debugger**: A debugger built upon BranchMonitor framework.
