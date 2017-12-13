@@ -39,6 +39,7 @@ The repository is organized as follows:
   memory address and supplies them as inputs to the advanced client.
 * **BranchMonitor.NMI**: The monitoring driver (NMI handler).
 * **BranchMonitor.PMI**: The monitoring driver (PMI handler).
+* **BranchMonitor.Multi-core**: The monitoring driver in a multi-core version (PMI handler).
 * **DumpDLL**: A tool to ease introspection headers generation.
 * **Kernel**: Kernel introspection modules.
 * **Misbehavior.Detection**: A profiling tool to detect application misbehavior.
