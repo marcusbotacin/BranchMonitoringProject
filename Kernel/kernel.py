@@ -1,7 +1,7 @@
 # Kernel introspection module to enrich branch collected data
 # This code is part of BranchMonitoring framework
 # Written by: Marcus Botacin - 2017
-# Federal University of Paraná (UFPR)
+# Federal University of Parana (UFPR)
 
 from xml.etree.ElementTree import ElementTree   # Parse XML
 import subprocess                               # Run dump tools
@@ -13,7 +13,8 @@ import signal                                   # Interrupt endless loop
 class Monitor():
 
     # class instantiation
-    def __init__(self,app_name=None,lib_name=None):
+    def __init__(self,save=None):
+        self.save=save
         self.mods = None                                    # No introspection data at this point
         signal.signal(signal.SIGINT,self.signal_handler)    # Installing signal handler
         # debug print
@@ -94,7 +95,10 @@ class Monitor():
         return "Unknown"
 
     # polling loop
-    def loop(self,mods=None,exports=None):
+    def loop(self,mods=None,exports=None,save=False):
+        if save:
+            log = open(self.save,"w")
+
         # default definitions
         last = ""
         self.mods = mods
@@ -122,7 +126,10 @@ class Monitor():
                         module_string = self.addr_to_module(branch)
                         # do not print repeated entries
                         if module_string != last:
-                            print("%x <%s>" % (branch,module_string))
+                            s = "%x <%s>" % (branch,module_string)
+                            print(s)
+                            if save:
+                                log.write(s+"\n")
                             last = module_string
                 else:
                     # no data, sleep
@@ -130,6 +137,8 @@ class Monitor():
         # signal received
         finally:
             # cleanup
+            if save:
+                log.close()
             self.__close_driver_handler()
 
 # Dumper: the introspection class
@@ -144,23 +153,27 @@ class Dumper():
         # External tools are required
         # DriverView used to enumerate modules
         # DriverView binary path
-        self.drvview_path = "C:\driverview-x64\DriverView.exe"
+        self.drvview_path = "driverview-x64\DriverView.exe"
         # DriverView Output file
-        self.drvview_output = "C:\driverview-x64\drv.xml"
+        self.drvview_output = "driverview-x64\drv.xml"
         # DllView used to map function to offsets
         # DllView binary path
-        self.dllview_path = "C:\dllexp-x64\dllexp.exe"
+        self.dllview_path = "dllexp-x64\dllexp.exe"
         # DllView output
-        self.dllview_output = "C:\dllexp-x64\dll.xml"
+        self.dllview_output = "Downloads\dllexp-x64\dll.xml"
 
     # enumerate loaded modules
     def dump_modules(self):
+        if __debug__:
+            print("Dumping Modules")
         # using DriverView
         s = subprocess.Popen([self.drvview_path,"/sxml",self.drvview_output])
         s.wait()
 
     # get offsets
     def dump_exports(self,bin):
+
+
         # using DllView
         s = subprocess.Popen([self.dllview_path,"/from_files",bin,"/sxml",self.dllview_output])
         s.wait()
@@ -169,7 +182,7 @@ class Dumper():
     def parse_exports(self):
         exp = []
         self.dtree = ElementTree()
-        x = self.dtree.parse(self.dllview_output)
+        self.dtree.parse(self.dllview_output)
         for p in self.dtree.findall("item"):
             # get function name
             fname = p.find('function_name').text
@@ -189,6 +202,10 @@ class Dumper():
 
     # get offsets and parse
     def get_exports(self,bin):
+
+        if __debug__:
+            print("Getting Exports for: %s" % bin)
+
         self.dump_exports(bin)
         return self.parse_exports()
 
@@ -222,10 +239,10 @@ if __name__ == '__main__':
     d.dump_modules()
     mods, exports = d.parse_modules()
     # then monitor
-    m=Monitor()
+    m=Monitor(save="save.log")
     # infinite loop
     # introspected data as parameter to the monitor
-    m.loop(mods,exports)
+    m.loop(mods,exports,True)
 # no module import
 else:
     print("No module import support yet!")
