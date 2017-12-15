@@ -1,8 +1,7 @@
 # BranchMonitoring framework
 # A tool to detect application misbehavior based on BTS data
 # Marcus Botacin, 2017
-# Federal University of Paraná (UFPR)
-
+# Federal University of Parana (UFPR)
 
 # Import Block
 import sys                                      # binary name as argument
