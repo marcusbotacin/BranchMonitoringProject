@@ -480,7 +480,7 @@ My academic work related to branch monitoring.
 
 ### In English
 
-The work *Enhancing Branch Monitoring for Security Purposes: From Control Flow Integrity to Malware Analysis and Debugging* will appear in the [ACM Transactions on Privacy and Security (TOPS)](http://tops.acm.org/).
+We published an academic paper, titled *Enhancing Branch Monitoring for Security Purposes: From Control Flow Integrity to Malware Analysis and Debugging*, in the [ACM Transactions on Privacy and Security (TOPS)](https://dl.acm.org/citation.cfm?id=3152162). It covers both theory and practice about branch monitoring.
 
 ### In Portuguese
 
@@ -494,9 +494,9 @@ Check out our [Youtube playlist](https://www.youtube.com/watch?v=BguVzqMt_j0&lis
 
 ## Mentions to the BranchMonitoring project
 
-It is always great to have you efforts acknowledged, so I present here some mentions to this work:
+It is always great to have our efforts acknowledged, so I present here some mentions to this work:
 
 * [Capstone Site](http://www.capstone-engine.org/showcase.html)
 * [Reddit Topic](https://www.reddit.com/r/ReverseEngineering/comments/5ycg08/code_tracing_framework_based_on_intel_branch/)
 
-Please tell me if you are using/referring this project.
+Please tell me if you are using or referring this project.
