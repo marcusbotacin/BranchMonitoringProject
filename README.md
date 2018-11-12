@@ -5,10 +5,10 @@
 The Branch Monitoring Project.
 
 ### Goal
-Branch Monitor is an alternative for runtime process monitoring on modern
+The Branch Monitor Framework (BMF) is an alternative for runtime process monitoring on modern
 (Windows) systems. Our approach makes use of Branch Trace Store (BTS) from
 Intel's processors to implement a dynamic, transparent framework. The framework
-provide many analysis facilities, such as function call tracing and Control Flow
+provides many analysis facilities, such as function call tracing and Control Flow
 Graph (CFG) reconstruction.
 
 ### Author
@@ -40,7 +40,7 @@ The repository is organized as follows:
 * **BranchMonitor.NMI**: The monitoring driver (NMI handler).
 * **BranchMonitor.PMI**: The monitoring driver (PMI handler).
 * **BranchMonitor.Multi-core**: The monitoring driver in a multi-core version (PMI handler).
-* **BranchMonitor.Multi-paeg**: The monitoring driver in a multi-page collection version (PMI handler).
+* **BranchMonitor.Multi-page**: The monitoring driver in a multi-page collection version (PMI handler).
 * **DumpDLL**: A tool to ease introspection headers generation.
 * **Kernel**: Kernel introspection modules.
 * **Misbehavior.Detection**: A profiling tool to detect application misbehavior.
@@ -49,10 +49,11 @@ The repository is organized as follows:
 * **Debugger**: A debugger built upon BranchMonitor framework.
 * **Utils**: General utils for binary analysis using BranchMonitor.
 * **PIN.Branch.Monitor**: A DBT-Based branch monitor implementation, used for comparative purposes.
+* **RetMonitor**: PEBS and LBR support, for additional research purposes.
 
 ### Versions
 
-Currently, the *BranchMonitor* driver is available on two versions. The first is implemented using an NMI callback to handle interrupts whereas the second is implemented by hooking the performance handler to do so.
+Currently, the *BranchMonitor* driver is available on two (in fact, many) versions. The first is implemented using an NMI callback to handle interrupts whereas the second is implemented by hooking the performance handler to do so.
 
 ### Dependencies
 
@@ -110,8 +111,7 @@ ProductVersion   FileVersion      FileName
 
 ```
 
-In order
-to run the solution on other systems, you need to dump the target DLL and generate
+To run the solution on other systems, you need to dump the target DLL and generate
 the header file. This process is eased by the *DumpDLL* tool, which parses DLL
 dumps and produces the correct, ordered outputs, as shown below:
 
@@ -143,7 +143,7 @@ RtlLeaveCriticalSection , 4112
 
 ### Building
 
-In order to build the many components of our framework, you should include their
+To build the many components of our framework, you should include their
 paths on the compilation project, as shown below:
 
 ![Including libraries paths](screenshots/compiler.includes.png)
@@ -473,6 +473,18 @@ I really would like to receive your contributions. By now, a non-exhaustive list
 * *Solving TO-DOs*: Lots of improvements along the code.
 * *Replacing insecure functions*: Remove all *strcpy* and *shell=True* from the code.
 * *Add new Utils*: The more analysis tools the better!
+
+### Moving forward:
+
+I really would like to make this project more than a proof of concept, but I don't have time to perform all refactors required for that. To let you know, some required modifications:
+
+* Integrate all Interrupt handling routines into a single one.
+* Make multi-core support default.
+* Make multi-page data collection default.
+* Implement an userland-kernel page sharing mechanism.
+* Handle x2APIC interrupts.
+* Convert static C headers into a dynamic python-pickle database.
+* Develop an installer.
 
 ## Publications
 
