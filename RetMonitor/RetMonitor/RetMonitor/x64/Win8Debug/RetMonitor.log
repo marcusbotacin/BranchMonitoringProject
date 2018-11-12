@@ -1,0 +1,37 @@
+﻿Build started 12/11/2018 14:07:07.
+Project "C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\RetMonitor\RetMonitor.vcxproj" on node 2 (Build target(s)).
+StampInf:
+  C:\Program Files (x86)\Windows Kits\8.0\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.11" -u "1.11.0" -f x64\Win8Debug\RetMonitor.inf 
+  Stamping x64\Win8Debug\RetMonitor.inf [Version] section with DriverVer=11/12/2018,14.7.8.816
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Win8Debug\ /Zi /nologo /W0 /WX- /Od /Oi /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D WIN32_LEAN_AND_MEAN=1 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"x64\Win8Debug\\" /Fd"x64\Win8Debug\vc110.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.0\Include\Shared\warning.h" /errorReport:prompt /kernel -cbstring /homeparams -d2epilogunwind /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ lbr.c thread.c
+  lbr.c
+  thread.c
+  Generating Code...
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\x64\Win8Debug\RetMonitor.sys" /VERSION:"6.2" /INCREMENTAL:NO /NOLOGO /WX /FUNCTIONPADMIN:6 /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.0\lib\win8\KM\x64\fltmgr.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win8\KM\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win8\KM\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win8\KM\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win8\KM\x64\wmilib.lib" "C:\Program Files (x86)\Windows Kits\8.0\lib\win8\KM\x64\hotpatch.obj" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\x64\Win8Debug\RetMonitor.pdb" /SUBSYSTEM:NATIVE,"6.02" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry" /RELEASE /IMPLIB:"C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\x64\Win8Debug\RetMonitor.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:6.2 /pdbcompress /debugtype:pdata x64\Win8Debug\RetMonitor.res
+  x64\Win8Debug\lbr.obj
+  x64\Win8Debug\pebs.obj
+  x64\Win8Debug\thread.obj
+  x64\Win8Debug\unload.obj
+  x64\Win8Debug\apic.obj
+  x64\Win8Debug\BTS.obj
+  x64\Win8Debug\checks.obj
+  x64\Win8Debug\cpuid.obj
+  x64\Win8Debug\debug.obj
+  x64\Win8Debug\device.obj
+  x64\Win8Debug\interrupt.obj
+  x64\Win8Debug\IO.obj
+  x64\Win8Debug\list.obj
+  x64\Win8Debug\RetMonitor.obj
+  RetMonitor.vcxproj -> C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\x64\Win8Debug\RetMonitor.sys
+DriverTestSign:
+  C:\Program Files (x86)\Windows Kits\8.0\bin\x86\signtool.exe sign /ph /sha1 "A8E1E10DCA76A4548D2AE5ECEA7840AA82723785" 
+  Done Adding Additional Store
+  Successfully signed: C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\x64\Win8Debug\RetMonitor.sys
+  
+Done Building Project "C:\Users\user\Documents\Visual Studio 2012\Projects\RetMonitor\RetMonitor\RetMonitor\RetMonitor.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.65

@@ -10,7 +10,7 @@ Signature   = "$Windows NT$"
 Class = "_TODO_Change_Class_appropriately_"
 ClassGuid = {_TODO_Change_ClassGuid_appropriately_}
 Provider    = %ManufacturerName%
-DriverVer=10/30/2018,12.0.0.663
+DriverVer=11/12/2018,14.7.8.816
 CatalogFile = RetMonitor.cat
 
 [DestinationDirs]
