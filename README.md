@@ -480,7 +480,9 @@ My academic work related to branch monitoring.
 
 ### In English
 
-We published an academic paper, titled *Enhancing Branch Monitoring for Security Purposes: From Control Flow Integrity to Malware Analysis and Debugging*, in the [ACM Transactions on Privacy and Security (TOPS)](https://dl.acm.org/citation.cfm?id=3152162). It covers both theory and practice about branch monitoring.
+* We published an academic paper titled *Enhancing Branch Monitoring for Security Purposes: From Control Flow Integrity to Malware Analysis and Debugging*, in the [ACM Transactions on Privacy and Security (TOPS)](https://dl.acm.org/citation.cfm?id=3152162). It covers both theory and practice about branch monitoring. [Check Pre Print Here](https://secret.inf.ufpr.br/papers/marcus-branch.pdf)
+
+* If you want to know more about hardware-assisted monitoring solutions, check out our survey [here](https://secret.inf.ufpr.br/papers/marcus-survey.pdf)
 
 ### In Portuguese
 
